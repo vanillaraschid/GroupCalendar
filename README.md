@@ -14,7 +14,7 @@ content of documentation:
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
 <html>
 	<body>
-		<span class="title"><img align="absMiddle" src="Images/CalendarIcon.jpg">GroupCalendar Instructions</span>
+		<span class="title"><img align="absMiddle" src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg">GroupCalendar Instructions</span>
 		<h2>Contents</h2>
 		<ul>
 			<li>
@@ -81,7 +81,7 @@ content of documentation:
 		<p>To verify that the addon is set for automatic configuration, open the calendar 
 			and click on the Channel tab at the bottom of the window.&nbsp; The checkbox 
 			labeled "Automatic channel configuration" should be checked.&nbsp;</p>
-		<div align="center"><img src="Images/ChannelSetup.jpg"></div>
+		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ChannelSetup.jpg"></div>
 		<p>If automatic configuration is working correctly, you will see a channel name and 
 			a series of *****'s in the password field.&nbsp; At the bottom of the window 
 			you should see the message "Data channel is connected."</p>
@@ -97,11 +97,11 @@ content of documentation:
 		<P>GroupCalendar normally displays events using server date and time.&nbsp; If you 
 			want to display and edit events using your local date and time, uncheck the Use 
 			server dates and times checkbox.</P>
-		<div align="center"><img src="Images/DaySummary.jpg"></div>
+		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/DaySummary.jpg"></div>
 		<h2><a name="Attending">Viewing and attending an event</a></h2>
 		<p>To view details for an event select the date and then select the event from the 
 			list of events for that day.</p>
-		<div align="center"><img src="Images/ViewEvent.jpg"></div>
+		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ViewEvent.jpg"></div>
 		<p>From the event viewer you can sign yourself up for the event so that the event 
 			organizer knows you want to attend.</p>
 		<p>To sign yourself up choose which of your characters you want to attend on and 
@@ -139,7 +139,7 @@ content of documentation:
 		<h2><a name="Add">Adding an event</a></h2>
 		<p>To add an event click on the day that you want the event to take place, then 
 			click the New Event button in the schedule window.</p>
-		<div align="center"><img src="Images/AddEditEvent.jpg"></div>
+		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"></div>
 		<p><b>Event</b> is used to set the icon for the event and will also be used as the 
 			title if you don't provide a title of your own.</p>
 		<p><b>Title</b> sets an optional title for the event</p>
@@ -167,7 +167,7 @@ content of documentation:
 			the event in the schedule window. In the event editor click the Delete button 
 			and then confirm the deletion in the dialog which appears.</p>
 		<h2><a name="Attendance">Event attendance</a></h2>
-		<div align="center"><img src="Images/Attendance.jpg"></div>
+		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/Attendance.jpg"></div>
 		<p>GroupCalendar has the ability to track attendance responses to dungeon and 
 			meeting events (there is not attendance feedback for birthday events). 
 			Additionally, attendance requests can be processed automatically using 
@@ -183,7 +183,7 @@ content of documentation:
 		<P>The Add button at the bottom of the attendance view can be used to manually add 
 			players to the event.&nbsp; See the next section on manually adding players for 
 			more information about this feature.</P>
-		<div align="center"><img src="Images/ConfirmationLimits.jpg"></div>
+		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ConfirmationLimits.jpg"></div>
 		<p>When using limits, players will be confirmed for the event using these rules:</p>
 		<p>If there's a minimum set for their class and that minimum hasn't been met, the 
 			player is confirmed</p>
@@ -229,7 +229,7 @@ content of documentation:
 			Whispers (this category won't be present if you aren't the creator of the event 
 			or if nobody has whispered you since you logged on). Use the menu next to the 
 			first whisper and choose Add Player to bring up the Add Player dialog.</p>
-		<div align="center"><img src="Images/AddWhisper.jpg"></div>
+		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddWhisper.jpg"></div>
 		<p>Here you can see the last whisper from that player and decide what to do with 
 			them. If you want to add them to your event, fill in any missing fields and 
 			choose whether they should be set to Accepted or to Standby. Optionally, you 
@@ -249,7 +249,7 @@ content of documentation:
 		<p>To access the party/raid management features, open your event and go to the 
 			Attendance tab. There you will see two tabs on the attendance list, All and 
 			Group. Select the Group tab.</p>
-		<div align="center"><img src="Images/Group.jpg"></div>
+		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/Group.jpg"></div>
 		<p>This view shows all of the attendees who are either accepted or on standby for 
 			the event as well as any players currently grouped with you, including your own 
 			character. All players will show a status in parenthesis next to their name. 
@@ -294,7 +294,7 @@ content of documentation:
 			you a class limits dialog very similar to the one used for automatic 
 			confirmations. Read the section above about how automatic confirmations work 
 			for an explanation of how the limits in this dialog work as well.</p>
-		<div align="center"><img src="Images/AutoSelect.jpg"></div>
+		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AutoSelect.jpg"></div>
 		<p>The automatic selection dialog has one additional setting for Priority. Use this 
 			to determine if players should selected based only on their signup date or if 
 			top priority should be given to higher guild ranks with signup date used to 
@@ -316,7 +316,7 @@ content of documentation:
 			enter their name into the Player Name field and click the Exclude button.</p>
 		<p>If you later change your mind you can remove them from the Exclude list by 
 			selecting their name and clicking the Remove button.</p>
-		<div align="center"><img src="Images/TrustSetup.jpg"></div>
+		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/TrustSetup.jpg"></div>
 		<h2><a name="Admin">Guild administrator setup</a></h2>
 		<p>If you are an officer of your guild with the ability to set members public notes 
 			then you can also act as an administrator for GroupCalendar for your guild. 
