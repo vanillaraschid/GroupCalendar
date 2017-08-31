@@ -1,4 +1,4 @@
-#### Read this in other languages: [German](README.de.md)
+# Read this in other languages: [German](README.de.md)
 ### GroupCalendar v2.2.1
 Addons for World of Warcraft 1.12.1.
 
@@ -11,9 +11,7 @@ Open - icon in the minimap or
 Edit: European time format default 
 
 --------------------------------------
-
-
-## content of  GroupCalendar/Documentation/UsersManual.html 
+### content of  GroupCalendar/Documentation/UsersManual.html 
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
 <html>
 	<body>
