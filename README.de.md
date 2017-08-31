@@ -66,16 +66,16 @@ Der Kalender öffnet sich immer mit dem aktuellen Monat und einem animierten Ran
 Um einen anderen Monat auszuwählen gibt es neben dem Monatsnamen zwei Pfeile wo man zwischen den Monats wechseln kann.<br>
 Um schnell zum aktuellen Tag zurückzugehen ist rechts oben ein Knopf mit einem nach unten zeigenden Pfeil als Symbol.<br>
 Das Addon zeigt standardmäßig die Events mit dem Datum und Zeit des Servers an. Wenn du deine lokale Zeit benutzen willst, entferne das Häkchen bei *Use server dates and times*.<br>
-<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/DaySummary.jpg"></div>
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/DaySummary.jpg">
 ## Teilnahme
 Um Details zu einem Event zu sehen, wähle das Event aus der Eventliste für den Tag aus.<br>
-<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ViewEvent.jpg"></div>
-Hier kannst du dich für das Event anmelden, damit der Eventersteller weiß, das du teilnehmen möchstest.
-Um dich anzumelden wähle mit welchem Charakter zu teilnehmen willst und hake die *Yes*-Box an.
-Wenn du an dem Event nicht teilnehmen möchtest kannst du die *No*-Box anwählen um es den Eventersteller wissen zu lassen.
-Zusätzlich kannst du noch einen Kommentar dazuschreiben.
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ViewEvent.jpg">
+Hier kannst du dich für das Event anmelden, damit der Eventersteller weiß, das du teilnehmen möchstest.<br>
+Um dich anzumelden wähle mit welchem Charakter zu teilnehmen willst und hake die *Yes*-Box an.<br>
+Wenn du an dem Event nicht teilnehmen möchtest kannst du die *No*-Box anwählen um es den Eventersteller wissen zu lassen.<br>
+Zusätzlich kannst du noch einen Kommentar dazuschreiben.<br>
 Im unteren Fenster wird dir der Status deiner Teilnahmeanfrage angezeigt:
-- **No response** sent Du hast noch keine Antwort zu dem Event bekommen
+- **No response sent** Du hast noch keine Antwort zu dem Event bekommen
 - **Waiting for confirmation** Du deine Teilnahme verschickt, aber noch keine Antwort von dem Eventorganisierer bekommen
 - **Confirmed - Accepted** Anfrage beim Eventersteller angekommen und hat dich dem Event hinzugefügt (kann auch automatisch passieren!)
 - **Confirmed - On Standy** Anfrage beim Eventersteller angekommen und du wurdest auf die Warteliste gesetzt (kann auch automatisch passieren!)
