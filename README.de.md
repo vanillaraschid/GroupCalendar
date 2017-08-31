@@ -58,8 +58,8 @@ Das Symbol ersetzt das normale Sonne und Mond-Symbol an der Minimap und zeigt zu
 Wenn du in einer Gilde bist und ein Gildenadministrator hat für deine Gilde die automatische Konfiguration eingestellt, musst du nur sichergehen, dass du die Einstellung auf *Automatische Konfiguration* steht(Standardeinstellung).
 Wenn du nicht in einer Gilde bist oder deine Gilde nicht die automatische Konfiguration eingestellt hat, gehe zum Manuellen Einrichten um das Addon einzurichten
 Um zu überprüfen ob das Addon auf *Automatische Konfiguration* eingestellt ist, öffne den Kalender und klicke auf den Reiter *Channel* am unteren Fensterrand. Das Häkchen mit *Automatic Channel configuration* sollte gesetzt sein.
-<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ChannelSetup.jpg">
-Wenn die automatische Konfiguration korrekt arbeitet, siehst du einen channel-Namen und eine Reihe von xxxxx im *password*-Feld. Am unteren Fensterrand siehst du die Nachricht *Data channel is connected*.
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ChannelSetup.jpg"><br>
+Wenn die automatische Konfiguration korrekt arbeitet, siehst du einen channel-Namen und eine Reihe von ************ im *password*-Feld. Am unteren Fensterrand siehst du die Nachricht *Data channel is connected*.<br>
 **Anmerkung:** dies dauert ca. 5min vom Einloggen und *Synching with network* bis zum *Date channel is connected*
 ## Die Kalenderdarstellung
 Der Kalender öffnet sich immer mit dem aktuellen Monat und einem animierten Rand um den aktuellen Tag. Um die Events für einen Tag anzuschauen musst du nur den Tag im Kalender anklicken. Es öffnet sich dann neben dem Kalender ein Fenster mit den Events für den ausgewählten Tag.<br>
