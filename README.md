@@ -10,6 +10,7 @@ Open - icon in the minimap or
 Edit: European time format default 
 
 --------------------------------------
+				<a href="#Deutsch">Deutsche Erklärung</a>
 ## content of  GroupCalendar/Documentation/UsersManual.html 
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
 <html>
@@ -364,3 +365,7 @@ Edit: European time format default
 			click the Trust button to add them.</p>
 	</body>
 </html>
+
+
+		<h2><a name="Deutsch">Deutsche Erklärung</a></h2>
+Deutsche Erklärung:
