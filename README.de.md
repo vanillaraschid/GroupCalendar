@@ -1,16 +1,24 @@
 ### GroupCalendar v2.2.1
-Addons for World of Warcraft 1.12.1.
+Addon für World of Warcraft 1.12.1.
 
-Open - icon in the minimap or
+Zum Öffnen das Icon an der Minimap anklicken oder
 
 /calendar
 
 /cld
 
-Edit: European time format default 
+Edit: Europäisches Zeitformat als Standard eingestellt 
 
 --------------------------------------
-## content of  GroupCalendar/Documentation/UsersManual.html 
+Anmerkungen:
+Der englische Inhalt wurde 1:1 aus der UsersManual kopiert (nur ein paar Änderungen zur Darstellung der Bilder und Anpassung der Textdarstellung)
+Hier im deutschen werde ich mich an den Aufbau der "Benutzeranleitung" halten, jedoch auch eigene Erfahrungen und Tipps einfließen lassen. Bis jetzt ist nicht vorgesehen ihn um eigene Bilder zu erweitern, aber mal schauen.
+
+Was kann dieses Addon überhaupt?
+- fdfd
+  - test
+--------------------------------------
+## Inhalt der  GroupCalendar/Documentation/UsersManual.html 
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
 <html>
 	<body>
