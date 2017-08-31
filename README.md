@@ -10,4 +10,4 @@ Open - icon in the minimap or
 Edit: European time format default 
 
 --------------------------------------
-[img]https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg?raw=true[/img]
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
