@@ -31,7 +31,7 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 ## Inhalte
 - [Installieren](#installieren)
 - [Den Kalender öffnen](#den-kalender-öffnen)
-- [Schnelles Einrichten](#setup)
+- [Schnelles Einrichten](#schnelles-einrichten)
 - [Die Kalenderdarstellung](#calendar)
 - [Anzeigen und Teilnehmen von Events](#attending)
 - [Ein Event eintragen](#add)
@@ -47,17 +47,15 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 ## Installieren
 Das GroupCalendar-Addon wird wie jedes andere Addon installiert. Vor dem Installieren sollte World of Warcraft beendet werden. Entpacke den Inhalt der *GroupCalendar.zip* und kopiere den entpackten Ordner in deinen  World of Warcraft's Addons-Ordner in dem Interface-Ordner. Entferne *-master* vom Ordnernamen.<br>
 Der Ordner sollte nun *GroupCalendar* lauten und sich im *World of Warcract/Interface/Addons*-Ordner befinden.<br>
-**WICHTIG:** Abhängig von dem Entpackprogramm kann das der Ordner in einem anderen Ordner entpackt worden sein. In dem Ordner *Groucalendar* sollte die Datei *GroupCalendar.toc* enthalten sein.
+**WICHTIG:** Abhängig von dem Entpackprogramm kann der Ordner in einem anderen Ordner entpackt worden sein. In dem Ordner *Groupcalendar* sollte die Datei *GroupCalendar.toc* enthalten sein.
 
-   <html>
-	<body>
-		<h2><a name="Access">Accessing the calendar</a></h2>
-		<p>There are two ways to open the calendar: either use the /calendar command or 
-			click the calendar icon in the upper-right corner of your minimap. The calendar 
-			icon replaces the sun and moon icons normally found on the minimap and also 
-			replaces the time tooltip with a display of the current date and time, 
-			including local time if it is different than the server time.</p>
-		<h2><a name="Setup">Quick setup</a></h2>
+## Den Kalender öffnen
+ Es gibt zwei Wege den Kalender zu öffnen:
+ - mit dem Befehl */calendar* oder
+ - mit dem Kalendersymbol in der rechten oberen Ecke der Minimap
+Das Symbol ersetzt das normale Sonne und Mond-Symbol an der Minimap und zeigt zusätzlich die aktuelle Zeit und Datum an einschließlich die lokale Zeit wenn sie von der Serverzeit abweicht.
+## Schnelles Einrichten
+
 		<p>If you are in a guild and a guild administrator has set up your guild for 
 			automatic configuration then you will only need to make sure that you are set 
 			to use automatic configuration. If you are not in a guild or your guild does 
