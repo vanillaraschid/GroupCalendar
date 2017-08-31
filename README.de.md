@@ -29,7 +29,7 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 ## Inhalt der  GroupCalendar/Documentation/UsersManual.html 
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg"/><br>
 ## Inhalte
-- [Installieren](#Install)
+- [Installieren](#Installieren)
 <br>
 <br>
 <br>
@@ -70,5 +70,5 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 <br>
 <br>
 
-## Install
+## Installieren
 Test test
