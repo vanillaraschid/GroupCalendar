@@ -28,8 +28,7 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 --------------------------------------
 ## Inhalt der  GroupCalendar/Documentation/UsersManual.html 
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
-<html>
-	<body>
+
 		<span class="title"><img align="absMiddle" src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg">GroupCalendar Instruktionen</span>
 		<h2>Inhalte</h2>
 		<ul>
