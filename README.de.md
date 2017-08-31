@@ -10,14 +10,16 @@ Zum Öffnen das Icon an der Minimap anklicken oder
 Edit: Europäisches Zeitformat als Standard eingestellt 
 
 --------------------------------------
-Anmerkungen:
-Der englische Inhalt wurde 1:1 aus der UsersManual kopiert (nur ein paar Änderungen zur Darstellung der Bilder und Anpassung der Textdarstellung)
-Hier im deutschen werde ich mich an den Aufbau der "Benutzeranleitung" halten, jedoch auch eigene Erfahrungen und Tipps einfließen lassen. Bis jetzt ist nicht vorgesehen ihn um eigene Bilder zu erweitern, aber mal schauen.
+### Anmerkungen:
+Der englische Inhalt wurde 1:1 aus der UsersManual kopiert (nur ein paar Änderungen zur Darstellung der Bilder und Anpassung der Textdarstellung)<br>
+Die Bilder sind auf englisch, jedoch sollten sie durch die Erklärungen auf deutsch und den gleichen Aufbau im deutschen Client verständlich sein.<br>
+Hier im deutschen werde ich mich an den Aufbau der "Benutzeranleitung" halten, jedoch auch eigene Erfahrungen und Tipps einfließen lassen. Bis jetzt ist nicht vorgesehen ihn um eigene Bilder zu erweitern, aber mal schauen.<br>
+Abhängig von meiner Zeit, werde ich mich auch noch an die Übersetzung der fehlenden Begriffe beim Addon ins Deutsche machen.<br> 
 
-Was kann dieses Addon überhaupt?
-Es stellt einen Kalender für Treffen im Spiel dar, seien es Raids, Dungeons oder Gildentreffen(kurzum: Events)
+### Was kann dieses Addon überhaupt?
+Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instanzen oder Gildentreffen(kurzum: Events)
 - Events in den Kalender eintragen
-  - mit Teilnahme/Absage mit Kommentarmöglichkeit
+  - Teilnahme/Absage mit Kommentarmöglichkeit
   - Limitierung von Klassen(und automatische Bestätigung bis zum Limit;ausschaltbar)
   - Gruppeneinladungen ingame
 - automatischer Abgleich der Daten zwischen Addonbesitzern
@@ -29,44 +31,40 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Raids, Dungeons ode
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
 <html>
 	<body>
-		<span class="title"><img align="absMiddle" src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg">GroupCalendar Instructions</span>
-		<h2>Contents</h2>
+		<span class="title"><img align="absMiddle" src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg">GroupCalendar Instruktionen</span>
+		<h2>Inhalte</h2>
 		<ul>
 			<li>
-				<a href="#Install">Installing</a>
+				<a href="#Install">Installieren</a>
 			<li>
-				<a href="#Access">Accessing the calendar</a>
+				<a href="#Access">Den Kalender öffnen</a>
 			<li>
-				<a href="#Setup">Quick setup</a>
+				<a href="#Setup">Schnelles Einrichten</a>
 			<li>
-				<a href="#Calendar">The calendar display</a>
+				<a href="#Calendar">Die Kalenderdarstellung</a>
 			<li>
-				<a href="#Attending">Viewing and attending an event</a>
+				<a href="#Attending">Anzeigen und Teilnehmen von Events</a>
 			<li>
-				<a href="#Add">Adding an event</a>
+				<a href="#Add">Ein Event eintragen</a>
 			<li>
-				<a href="#Edit">Editing an event</a>
+				<a href="#Edit">Ein Event bearbeiten</a>
 			<li>
-				<a href="#Delete">Deleting an event</a>
+				<a href="#Delete">Ein Event löschen</a>
 			<li>
-				<a href="#Attendance">Event attendance</a>
+				<a href="#Attendance">Eventteilnahme</a>
 			<li>
-				<a href="#AddPlayer">Adding players manually</a>
+				<a href="#AddPlayer">Einen Spieler manuell hinzufügen</a>
 			<li>
-				<a href="#Group">Party/Raid management</a>
+				<a href="#Group">Gruppen/Schlachtzug Management</a>
 			<li>
-				<a href="#Ignore">Ignoring other player's events</a>
+				<a href="#Ignore">Events von einem Spieler ignorieren</a>
 			<li>
-				<a href="#Admin">Guild administrator setup</a>
+				<a href="#Admin">Einrichten als Gildenadministrator</a>
 			<li>
-				<a href="#Manual">Manual setup</a></li>
+				<a href="#Manual">Manuelles Einrichten</a></li>
 		</ul>
-		<h2><a name="Install">Installing</a></h2>
-		<p>The GroupCalendar addon is installed just like any other addon. If World of 
-			Warcraft is running you should exit from the game before installing. Extract 
-			the contents of the GroupCalendar.zip file and then copy the resulting 
-			GroupCalendar folder to your World of Warcraft's Addons folder located inside 
-			the Interface folder.</p>
+		<h2><a name="Install">Installieren</a></h2>
+		<p>Das GroupCalendar addon wird wie jedes andere Addon installiert. Vor dem Installieren sollte World of Warcraft beendet werden. Entpacke den Inhalt der GroupCalendar.zip file und kopiere den entpackten Ordner in deinen  World of Warcraft's Addons Ordner in dem Interface-Ordner. Entferne "-master" vom Ordnernamen. Der Ordner sollte nun "GroupCalendar" lauten und sich im World of Warcract/Interface/Addons Ordner befinden.</p>
 		<p><span class="GameFontHighlight">Windows users:</span>
 			The Addons folder can normally be found at
 			<span class="Cmd">C:\Program 
