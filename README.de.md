@@ -56,9 +56,9 @@ Der Ordner sollte nun *GroupCalendar* lauten und sich im *World of Warcract/Inte
 Das Symbol ersetzt das normale Sonne und Mond-Symbol an der Minimap und zeigt zusätzlich die aktuelle Zeit und Datum an einschließlich die lokale Zeit wenn sie von der Serverzeit abweicht.
 ## Schnelles Einrichten
 Wenn du in einer Gilde bist und ein Gildenadministrator hat für deine Gilde die automatische Konfiguration eingestellt, musst du nur sichergehen, dass du die Einstellung auf *Automatische Konfiguration* steht(Standardeinstellung).
-Wenn du nicht in einer Gilde bist oder deine Gilde nicht die automatische Konfiguration eingestellt hat, gehe zum [Manuellen Einrichten](#manuelles-einrichten) um das Addon einzurichten
+Wenn du nicht in einer Gilde bist oder deine Gilde nicht die automatische Konfiguration eingestellt hat, gehe zum Manuellen Einrichten um das Addon einzurichten
 Um zu überprüfen ob das Addon auf *Automatische Konfiguration* eingestellt ist, öffne den Kalender und klicke auf den Reiter *Channel* am unteren Fensterrand. Das Häkchen mit *Automatic Channel configuration* sollte gesetzt sein.
-<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ChannelSetup.jpg"></div>
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ChannelSetup.jpg">
 Wenn die automatische Konfiguration korrekt arbeitet, siehst du einen channel-Namen und eine Reihe von xxxxx im *password*-Feld. Am unteren Fensterrand siehst du die Nachricht *Data channel is connected*.
 **Anmerkung:** dies dauert ca. 5min vom Einloggen und *Synching with network* bis zum *Date channel is connected*
 ## Die Kalenderdarstellung
