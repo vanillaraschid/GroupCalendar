@@ -27,12 +27,10 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
   - Gildenfunktion (Einstellung durch Offizier: konfiguriert sich automatisch für Gildenmitglieder)
 --------------------------------------
 ## Inhalt der  GroupCalendar/Documentation/UsersManual.html 
-<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
-
-<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg"/>
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg"/><br>
 GroupCalendar Instruktionen<br>
 <br>
-## Dies ist ein Test
+#### Dies ist ein Test
 <br>
 <br>
 <br>
