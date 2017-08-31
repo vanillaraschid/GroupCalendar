@@ -32,10 +32,10 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 <img align="absMiddle" src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg">
 GroupCalendar Instruktionen
 ## Inhalte
+- [Installieren](#Install)
+
 <html>
 	<body>
-<h2>Inhalte</h2>
-		Inhalte
 		<ul>
 			<li>
 				<a href="#Install">Installieren</a>
@@ -381,3 +381,4 @@ GroupCalendar Instruktionen
 			click the Trust button to add them.</p>
 	</body>
 </html>
+## Install
