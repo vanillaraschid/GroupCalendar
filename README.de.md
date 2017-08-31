@@ -74,5 +74,5 @@ GroupCalendar Instruktionen<br>
 <br>
 <br>
 
-## Install
+## Installieren
 Test test
