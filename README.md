@@ -13,25 +13,6 @@ Edit: European time format default
 content of documentation:
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
 <html>
-	<head>
-		<title>GroupCalendar User's Manual</title>
-		<style type="text/css"> a:link { color: #ffe040; }
-	a:visited { color: #ffe040; }
-	a:hover { color: white; }
-	a:active { color: purple; }
-	body { background-image: url('Images/background.jpg'); background-repeat: repeat-xy; color: #ffe040; }
-	h2 { color: white; }
-	p { font-size: medium; font-weight: bold; margin-left: 3em; }
-	div { font-size: medium; font-weight: bold; padding-left: 3em; }
-	ul { margin-left: 5em; }
-	li { font-size: medium; font-weight: bold; }
-	.title { font-size: xx-large; font-weight: bold; color: #ffffff; }
-	.note { color: #ffffff; margin-left: 2em; }
-	.GameFontNormal { font-size: medium; font-weight: bold; color: #ffe040; }
-	.GameFontHighlight { font-size: medium; font-weight: bold; color: #ffffff; }
-	.Cmd { font-family: courier; font-size: medium; font-weight: normal; color: #ffffff; }
-	</style>
-	</head>
 	<body>
 		<span class="title"><img align="absMiddle" src="Images/CalendarIcon.jpg">GroupCalendar Instructions</span>
 		<h2>Contents</h2>
