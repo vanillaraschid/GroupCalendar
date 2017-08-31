@@ -32,9 +32,9 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 - [Installieren](#installieren)
 - [Den Kalender öffnen](#den-kalender-öffnen)
 - [Schnelles Einrichten](#schnelles-einrichten)
-- [Die Kalenderdarstellung](#calendar)
-- [Anzeigen und Teilnehmen von Events](#attending)
-- [Ein Event eintragen](#add)
+- [Die Kalenderdarstellung](#die-kalenderdarstellung)
+- [Teilnahme](#teilnahme)
+- [Ein Event eintragen](#ein-event-eintragen)
 - [Ein Event bearbeiten](#edit)
 - [Ein Event löschen](#delete)
 - [Eventteilnahme](#attendance)
@@ -52,74 +52,36 @@ Der Ordner sollte nun *GroupCalendar* lauten und sich im *World of Warcract/Inte
 ## Den Kalender öffnen
  Es gibt zwei Wege den Kalender zu öffnen:
  - mit dem Befehl */calendar* oder
- - mit dem Kalendersymbol in der rechten oberen Ecke der Minimap
+ - mit dem Kalendersymbol in der rechten oberen Ecke der Minimap<br>
 Das Symbol ersetzt das normale Sonne und Mond-Symbol an der Minimap und zeigt zusätzlich die aktuelle Zeit und Datum an einschließlich die lokale Zeit wenn sie von der Serverzeit abweicht.
 ## Schnelles Einrichten
+Wenn du in einer Gilde bist und ein Gildenadministrator hat für deine Gilde die automatische Konfiguration eingestellt, musst du nur sichergehen, dass du die Einstellung auf *Automatische Konfiguration* steht(Standardeinstellung).
+Wenn du nicht in einer Gilde bist oder deine Gilde nicht die automatische Konfiguration eingestellt hat, gehe zum [Manuellen Einrichten](#manuelles-einrichten) um das Addon einzurichten
+Um zu überprüfen ob das Addon auf *Automatische Konfiguration* eingestellt ist, öffne den Kalender und klicke auf den Reiter *Channel* am unteren Fensterrand. Das Häkchen mit *Automatic Channel configuration* sollte gesetzt sein.
+<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ChannelSetup.jpg"></div>
+Wenn die automatische Konfiguration korrekt arbeitet, siehst du einen channel-Namen und eine Reihe von <p>******</p> im *password*-Feld. Am unteren Fensterrand siehst du die Nachricht *Data channel is connected*.
+**Anmerkung:** dies dauert ca. 5min vom Einloggen und *Synching with network* bis zum *Date channel is connected*
+## Die Kalenderdarstellung
+Der Kalender öffnet sich immer mit dem aktuellen Monat und einem animierten Rand um den aktuellen Tag. Um die Events für einen Tag anzuschauen musst du nur den Tag im Kalender anklicken. Es öffnet sich dann neben dem Kalender ein Fenster mit den Events für den ausgewählten Tag.<br>
+Um einen anderen Monat auszuwählen gibt es neben dem Monatsnamen zwei Pfeile wo man zwischen den Monats wechseln kann.<br>
+Um schnell zum aktuellen Tag zurückzugehen ist rechts oben ein Knopf mit einem nach unten zeigenden Pfeil als Symbol.<br>
+Das Addon zeigt standardmäßig die Events mit dem Datum und Zeit des Servers an. Wenn du deine lokale Zeit benutzen willst, entferne das Häkchen bei *Use server dates and times*.<br>
+<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/DaySummary.jpg"></div>
+## Teilnahme
+Um Details zu einem Event zu sehen, wähle das Event aus der Eventliste für den Tag aus.<br>
+<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ViewEvent.jpg"></div>
+Hier kannst du dich für das Event anmelden, damit der Eventersteller weiß, das du teilnehmen möchstest.
+Um dich anzumelden wähle mit welchem Charakter zu teilnehmen willst und hake die *Yes*-Box an.
+Wenn du an dem Event nicht teilnehmen möchtest kannst du die *No*-Box anwählen um es den Eventersteller wissen zu lassen.
+Zusätzlich kannst du noch einen Kommentar dazuschreiben.
+Im unteren Fenster wird dir der Status deiner Teilnahmeanfrage angezeigt:
+- **No response** sent Du hast noch keine Antwort zu dem Event bekommen
+- **Waiting for confirmation** Du deine Teilnahme verschickt, aber noch keine Antwort von dem Eventorganisierer bekommen
+- **Confirmed - Accepted** Anfrage beim Eventersteller angekommen und hat dich dem Event hinzugefügt (kann auch automatisch passieren!)
+- **Confirmed - On Standy** Anfrage beim Eventersteller angekommen und du wurdest auf die Warteliste gesetzt (kann auch automatisch passieren!)
+- **Confirmed - Declined** Anfrage beim Eventersteller angekommen, aber deine wurde Teilnahme abgelehnt
+## Ein Event eintragen
 
-		<p>If you are in a guild and a guild administrator has set up your guild for 
-			automatic configuration then you will only need to make sure that you are set 
-			to use automatic configuration. If you are not in a guild or your guild does 
-			not use automatic configuration, skip to the section on Manual configuration to 
-			set up the addon.</p>
-		<p>To verify that the addon is set for automatic configuration, open the calendar 
-			and click on the Channel tab at the bottom of the window.&nbsp; The checkbox 
-			labeled "Automatic channel configuration" should be checked.&nbsp;</p>
-		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ChannelSetup.jpg"></div>
-		<p>If automatic configuration is working correctly, you will see a channel name and 
-			a series of *****'s in the password field.&nbsp; At the bottom of the window 
-			you should see the message "Data channel is connected."</p>
-		<h2><a name="Calendar">The calendar display</a></h2>
-		<p>The calendar will always open to the current month with an animated marquee 
-			around the current date. To see the schedule for today or any other date simply 
-			click on on that day in the calendar and that day's schedule will open 
-			alongside the calendar.</p>
-		<p>To choose a date in another month, use the arrow buttons located on either side 
-			of the month name to switch to the previous or next month.</p>
-		<P>To quickly return to the current date, use the downward pointing arrow in the 
-			top right corner.</P>
-		<P>GroupCalendar normally displays events using server date and time.&nbsp; If you 
-			want to display and edit events using your local date and time, uncheck the Use 
-			server dates and times checkbox.</P>
-		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/DaySummary.jpg"></div>
-		<h2><a name="Attending">Viewing and attending an event</a></h2>
-		<p>To view details for an event select the date and then select the event from the 
-			list of events for that day.</p>
-		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ViewEvent.jpg"></div>
-		<p>From the event viewer you can sign yourself up for the event so that the event 
-			organizer knows you want to attend.</p>
-		<p>To sign yourself up choose which of your characters you want to attend on and 
-			then check the Yes box.</p>
-		<p>If you can't attend the event and want to let the organizer know, check the No 
-			box.</p>
-		<p>You can optionally add a comment to explain special circumstances for your 
-			attendance. For example you may say that you're attending but that you'll be 
-			late, or you may want to give a reason why you won't be attending.</p>
-		<P>The Status at the bottom of the window shows what's happening with your 
-			attendance request.&nbsp; Possible messages are:</P>
-		<p>At the bottom of the event viewer is a status message. This will be one of 
-			several message indicating the status of your attendance feedback:</p>
-		<ul>
-			<li>
-				<span class="GameFontHighlight">No response sent</span>
-			You haven't provided any response for this event
-			<li>
-				<span class="GameFontHighlight">Waiting for confirmation</span>
-			You have sent a response but it hasn't been received and processed yet by the 
-			event organizer
-			<li>
-				<span class="GameFontHighlight">Confirmed - Accepted</span>
-			The event organizer has received your request and you have been added to the 
-			event
-			<li>
-				<span class="GameFontHighlight">Confirmed - On Standby</span>
-			The event organizer has received your request and has put you on the standby 
-			list for the event
-			<li>
-				<span class="GameFontHighlight">Confirmed - Declined</span>
-				The event organizer has received your request and has declined your request to 
-				attend</li>
-		</ul>
-		<h2><a name="Add">Adding an event</a></h2>
 		<p>To add an event click on the day that you want the event to take place, then 
 			click the New Event button in the schedule window.</p>
 		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"></div>
