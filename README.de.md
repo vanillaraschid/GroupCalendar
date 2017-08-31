@@ -59,7 +59,7 @@ Wenn du in einer Gilde bist und ein Gildenadministrator hat für deine Gilde die
 Wenn du nicht in einer Gilde bist oder deine Gilde nicht die automatische Konfiguration eingestellt hat, gehe zum [Manuellen Einrichten](#manuelles-einrichten) um das Addon einzurichten
 Um zu überprüfen ob das Addon auf *Automatische Konfiguration* eingestellt ist, öffne den Kalender und klicke auf den Reiter *Channel* am unteren Fensterrand. Das Häkchen mit *Automatic Channel configuration* sollte gesetzt sein.
 <div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ChannelSetup.jpg"></div>
-Wenn die automatische Konfiguration korrekt arbeitet, siehst du einen channel-Namen und eine Reihe von <p>******</p> im *password*-Feld. Am unteren Fensterrand siehst du die Nachricht *Data channel is connected*.
+Wenn die automatische Konfiguration korrekt arbeitet, siehst du einen channel-Namen und eine Reihe von ****** ** im *password*-Feld. Am unteren Fensterrand siehst du die Nachricht *Data channel is connected*.
 **Anmerkung:** dies dauert ca. 5min vom Einloggen und *Synching with network* bis zum *Date channel is connected*
 ## Die Kalenderdarstellung
 Der Kalender öffnet sich immer mit dem aktuellen Monat und einem animierten Rand um den aktuellen Tag. Um die Events für einen Tag anzuschauen musst du nur den Tag im Kalender anklicken. Es öffnet sich dann neben dem Kalender ein Fenster mit den Events für den ausgewählten Tag.<br>
