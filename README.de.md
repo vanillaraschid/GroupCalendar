@@ -30,7 +30,7 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
 
 <img align="absMiddle" src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg">
-GroupCalendar Instruktionen
+GroupCalendar Instruktionen<br>
 ## Inhalte
 - [Install](#Install)
 
