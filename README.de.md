@@ -29,8 +29,8 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 ## Inhalt der  GroupCalendar/Documentation/UsersManual.html 
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg"/><br>
 ## Inhalte
-- [Installieren](#install)
-- [Den Kalender öffnen](#access)
+- [Installieren](#installieren)
+- [Den Kalender öffnen](#den-kalender-öffnen)
 - [Schnelles Einrichten](#setup)
 - [Die Kalenderdarstellung](#calendar)
 - [Anzeigen und Teilnehmen von Events](#attending)
@@ -44,41 +44,13 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 - [Einrichten als Gildenadministator](#admin)
 - [Manuelles Einrichten](#manual)
 
+## Installieren
+Das GroupCalendar-Addon wird wie jedes andere Addon installiert. Vor dem Installieren sollte World of Warcraft beendet werden. Entpacke den Inhalt der *GroupCalendar.zip* und kopiere den entpackten Ordner in deinen  World of Warcraft's Addons-Ordner in dem Interface-Ordner. Entferne *-master* vom Ordnernamen.<br>
+Der Ordner sollte nun *GroupCalendar* lauten und sich im *World of Warcract/Interface/Addons*-Ordner befinden.<br>
+**WICHTIG:** Abhängig von dem Entpackprogramm kann das der Ordner in einem anderen Ordner entpackt worden sein. In dem Ordner *Groucalendar* sollte die Datei *GroupCalendar.toc* enthalten sein.
 
-		<ul>
-			<li>
-				<a href="#Attendance">Eventteilnahme</a>
-			<li>
-				<a href="#AddPlayer">Einen Spieler manuell hinzufügen</a>
-			<li>
-				<a href="#Group">Gruppen/Schlachtzug Management</a>
-			<li>
-				<a href="#Ignore">Events von einem Spieler ignorieren</a>
-			<li>
-				<a href="#Admin">Einrichten als Gildenadministrator</a>
-			<li>
-				<a href="#Manual">Manuelles Einrichten</a></li>
-		</ul>
-## Install
-    <html>
+   <html>
 	<body>
-		<h2><a name="Install">Installieren</a></h2>
-		<p>Das GroupCalendar-Addon wird wie jedes andere Addon installiert. Vor dem Installieren sollte World of Warcraft beendet werden. Entpacke den Inhalt der GroupCalendar.zip und kopiere den entpackten Ordner in deinen  World of Warcraft's Addons-Ordner in dem Interface-Ordner. Entferne -master vom Ordnernamen.<br>
-		Der Ordner sollte nun GroupCalendar lauten und sich im World of Warcract/Interface/Addons-Ordner befinden.</p>
-		<p><span class="GameFontHighlight">Windows users:</span>
-			The Addons folder can normally be found at
-			<span class="Cmd">C:\Program 
-			Files\World of Warcraft\Interface\Addons</span></p>
-		<p><span class="GameFontHighlight">MacOS users:</span>The Addons folder can 
-			normally be found inside the Interface folder which is located inside the World 
-			of Warcraft application folder</p>
-		<p>IMPORTANT: Depending on your unzipping application, you may end up with the 
-			addon folder inside another folder. Look inside the GroupCalendar folder and 
-			verify that there's a file named GroupCalendar.toc. If you don't see this file 
-			and see another folder instead, open that folder and look for the file. The 
-			folder containing the .toc file is the one which should be copied to your World 
-			of Warcraft addons folder.</p>
-		<p>The addon is now installed and you can now launch World of Warcraft.</p>
 		<h2><a name="Access">Accessing the calendar</a></h2>
 		<p>There are two ways to open the calendar: either use the /calendar command or 
 			click the calendar icon in the upper-right corner of your minimap. The calendar 
