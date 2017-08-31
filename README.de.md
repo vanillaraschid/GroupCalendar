@@ -24,8 +24,7 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
   - Gruppeneinladungen ingame
 - automatischer Abgleich der Daten zwischen Addonbesitzern
   - einfache Einstellung
-  - Gildenfunktion (Einstellung durch Offizier: konfiguriert sich automatisch für Gilden"mitglieder"[jeder Rang])
-  -
+  - Gildenfunktion (Einstellung durch Offizier: konfiguriert sich automatisch für Gildenmitglieder)
 --------------------------------------
 ## Inhalt der  GroupCalendar/Documentation/UsersManual.html 
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
@@ -64,8 +63,8 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 				<a href="#Manual">Manuelles Einrichten</a></li>
 		</ul>
 		<h2><a name="Install">Installieren</a></h2>
-		<p>Das GroupCalendar-Addon wird wie jedes andere Addon installiert. Vor dem Installieren sollte World of Warcraft beendet werden. Entpacke den Inhalt der _*test* GroupCalendar.zip_ und kopiere den entpackten Ordner in deinen  World of Warcraft's Addons-Ordner in dem Interface-Ordner. Entferne _-master_ vom Ordnernamen.<br>
-		Der Ordner sollte nun *"GroupCalendar* lauten und sich im *World of Warcract/Interface/Addons*-Ordner befinden.</p>
+		<p>Das GroupCalendar-Addon wird wie jedes andere Addon installiert. Vor dem Installieren sollte World of Warcraft beendet werden. Entpacke den Inhalt der GroupCalendar.zip und kopiere den entpackten Ordner in deinen  World of Warcraft's Addons-Ordner in dem Interface-Ordner. Entferne -master vom Ordnernamen.<br>
+		Der Ordner sollte nun GroupCalendar lauten und sich im World of Warcract/Interface/Addons-Ordner befinden.</p>
 		<p><span class="GameFontHighlight">Windows users:</span>
 			The Addons folder can normally be found at
 			<span class="Cmd">C:\Program 
