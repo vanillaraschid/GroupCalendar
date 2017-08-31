@@ -15,8 +15,15 @@ Der englische Inhalt wurde 1:1 aus der UsersManual kopiert (nur ein paar Änderu
 Hier im deutschen werde ich mich an den Aufbau der "Benutzeranleitung" halten, jedoch auch eigene Erfahrungen und Tipps einfließen lassen. Bis jetzt ist nicht vorgesehen ihn um eigene Bilder zu erweitern, aber mal schauen.
 
 Was kann dieses Addon überhaupt?
-- fdfd
-  - test
+Es stellt einen Kalender für Treffen im Spiel dar, seien es Raids, Dungeons oder Gildentreffen(kurzum: Events)
+- Events in den Kalender eintragen
+  - mit Teilnahme/Absage mit Kommentarmöglichkeit
+  - Limitierung von Klassen(und automatische Bestätigung bis zum Limit;ausschaltbar)
+  - Gruppeneinladungen ingame
+- automatischer Abgleich der Daten zwischen Addonbesitzern
+  - einfache Einstellung
+  - Gildenfunktion (Einstellung durch Offizier: konfiguriert sich automatisch für Gilden"mitglieder"[jeder Rang])
+  -
 --------------------------------------
 ## Inhalt der  GroupCalendar/Documentation/UsersManual.html 
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
