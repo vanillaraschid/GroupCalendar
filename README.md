@@ -10,7 +10,7 @@ Open - icon in the minimap or
 Edit: European time format default 
 
 --------------------------------------
-content of documentation:
+## content of  GroupCalendar/Documentation/UsersManual.html 
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
 <html>
 	<body>
