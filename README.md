@@ -8,3 +8,6 @@ Open - icon in the minimap or
 /cld
 
 Edit: European time format default 
+
+--------------------------------------
+[img]https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg?raw=true[/img]
