@@ -86,12 +86,12 @@ Im unteren Fenster wird dir der Status deiner Teilnahmeanfrage angezeigt:
 ## Ein Event eintragen
 Um ein Event einzutragen, klicke auf den Tag an dem das Event stattfinden soll, dann clicke auf den Knopf *Neues Event* im Tagesablauffenster.<br>
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg">
-- **Event** legt das Symbol fest und wird auch als Titel genutzt, sollte keiner eingegeben werden
-- **Title** legt einen optionalen Titel für das Event fest
-- **Time** legt die Startzeit für das Event fest. Geburtstage haben keine Startzeit.
-- **Duration** damit wird die voraussichtliche Dauer des Events eingestellt. Geburtstage haben keine Dauer.
-- **Levels** setzt eine optionale Levelbegrenzung fest. Spieler welche nicht in dem entsprechenden Levelbereich sind, sehen das Event verblasst im Kalender und können nicht an dem Event teilnehmen. Es gibt keine Levelbegrenzung für Geburtstage und Treffen.
-- **Description** legt eine optionale Beschreibung fest. Dies könnte dafür diesen welchen Teil der Instanz das Event als Ziel hat oder worum es bei dem Treffen geht.<br><br>
+ - **Event** legt das Symbol fest und wird auch als Titel genutzt, sollte keiner eingegeben werden
+ - **Title** legt einen optionalen Titel für das Event fest
+ - **Time** legt die Startzeit für das Event fest. Geburtstage haben keine Startzeit.
+ - **Duration** damit wird die voraussichtliche Dauer des Events eingestellt. Geburtstage haben keine Dauer.
+ - **Levels** setzt eine optionale Levelbegrenzung fest. Spieler welche nicht in dem entsprechenden Levelbereich sind, sehen das Event verblasst im Kalender und können nicht an dem Event teilnehmen. Es gibt keine Levelbegrenzung für Geburtstage und Treffen.
+ - **Description** legt eine optionale Beschreibung fest. Dies könnte dafür diesen welchen Teil der Instanz das Event als Ziel hat oder worum es bei dem Treffen geht.<br>
 Um sich automatisch für das Event anzumelden setze das Häkchen bei *Will attend* unten im Fenster.<br>
 Wenn du das Event fertig eingestellt hast, klicke auf den *Done*-Knopf. Wenn du deinen Meinung geändert hast und das Event nicht erstellen möchstest, drücke den *Delete*-Knopf.
 ## Ein Event bearbeiten
