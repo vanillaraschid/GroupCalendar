@@ -25,7 +25,8 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 - automatischer Abgleich der Daten zwischen Addonbesitzern
   - einfache Einstellung
   - Gildenfunktion (Einstellung durch Offizier: konfiguriert sich automatisch für Gildenmitglieder)
-  
+  <br>
+  <br>
   <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
 --------------------------------------
 ## Inhalt der  GroupCalendar/Documentation/UsersManual.html 
