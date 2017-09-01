@@ -42,7 +42,7 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 - [Ein Event löschen](#ein-event-löschen)
 - [Teilnahme](#teilnahme)
 - [Einen Spieler manuell hinzufügen](#einen-spieler-manuell-hinzufügen)
-- [Gruppen/Schlachtzug Management](#group)
+- [Gruppen/Schlachtzug Management](#gruppen/schlachtzug-management)
 - [Events von einem Spieler ignorieren](#ignore)
 - [Einrichten als Gildenadministator](#admin)
 - [Manuelles Einrichten](#manual)
