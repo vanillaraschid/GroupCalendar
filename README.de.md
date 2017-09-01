@@ -44,8 +44,8 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 - [Einen Spieler manuell hinzufügen](#einen-spieler-manuell-hinzufügen)
 - [Gruppen-Schlachtzug Management](#gruppen-schlachtzug-management)
 - [Events von einem Spieler ignorieren](#events-von-einem-spieler-ignorieren)
-- [Einrichten als Gildenadministator](#admin)
-- [Manuelles Einrichten](#manual)
+- [Einrichten als Gildenadministator](#einrichten-als-gildenadministrator)
+- [Manuelles Einrichten](#manuelles-einrichten)
 
 ## Installieren
 Das GroupCalendar-Addon wird wie jedes andere Addon installiert. Vor dem Installieren sollte World of Warcraft beendet werden. Entpacke den Inhalt der *GroupCalendar.zip* und kopiere den entpackten Ordner in deinen  World of Warcraft's Addons-Ordner in dem Interface-Ordner. Entferne *-master* vom Ordnernamen.<br>
@@ -155,50 +155,18 @@ If you don't want to see events posted by a particular player you can ignore the
 
 If you later change your mind you can remove them from the Exclude list by selecting their name and clicking the Remove button.<br>
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/TrustSetup.jpg">
-		<h2><a name="Admin">Guild administrator setup</a></h2>
-		<p>If you are an officer of your guild with the ability to set members public notes 
-			then you can also act as an administrator for GroupCalendar for your guild. 
-			This will allow you to specify the channel, channel password and trust settings 
-			for members of your guild, making setup automatic for them. This will also 
-			allow you to easily change the data channel name and password for the entire 
-			guild at once rather than having to pass the new information on to each member 
-			individually.</p>
-		<p>On the Channel tab, set the mode to Manual Configuration and enter a channel 
-			name and a password for that channel. This is the chat channel which will be 
-			used to pass calendar event data between members of your guild.</p>
-		<p>Turn on the Store Auto-config Data in Player Note checkbox and enter the name of 
-			one of the members of your guild. It doesn't matter which member it is and 
-			using an otherwise meaningless member such as a guild mule is a good idea. The 
-			public note for that player will be changed to a configuration string which 
-			GroupCalendar will automatically find and use to configure itself for your 
-			members.</p>
-		<div class="note">NOTE: When you need to change the data channel password you 
-			should also change the name of the data channel. This is because their is no 
-			real concept of channel ownership in World of Warcraft (ownership is 
-			arbitrarily passed to someone else in the channel when the current owner logs 
-			off). This makes it very difficult to change only the password, so whenever 
-			changing the channel configuration always change both the name and password for 
-			the channel.</div>
-		<p>Finally, go to the Trust tab and set the trust group to Guild Members Only and 
-			set the minimum rank at which people are allowed to post events to the 
-			calendar.</p>
-		<div class="note">NOTE: If you are in an alliance with one or more other guilds and 
-			want to share calendars with them, you should set the trust group to Anyone Who 
-			Has Access to the Data Channel. Their guild administrator should set their 
-			configuration to match yours. Also, if you need to change the data channel then 
-			you will need to notify their administrator so they can change it for their 
-			guild as well.</div>
-		<h2><a name="Manual">Manual setup</a></h2>
-		<p>If you are not in a guild or are in a guild which doesn't use the automatic 
-			setup feature then you will need to manually configure the channel and trust 
-			settings.</p>
-		<p>In the Channel tab set the calendar for Manual Channel Configuration and enter 
-			the channel name and password for the chat channel you want to use to exchange 
-			calendar data.</p>
-		<p>In the Trust tab set the trust group to either Anyone or Only Those Listed Below 
-			depending on your preference. If you set it to Only Those Listed Below then you 
-			will need to manually add each person you want to share calendars with to the 
-			Additional Players list. Simply enter their name in the Player Name field and 
-			click the Trust button to add them.</p>
-	</body>
-</html>
+## Einrichten als Gildenadministrator
+If you are an officer of your guild with the ability to set members public notes then you can also act as an administrator for GroupCalendar for your guild. This will allow you to specify the channel, channel password and trust settings for members of your guild, making setup automatic for them. This will also allow you to easily change the data channel name and password for the entire guild at once rather than having to pass the new information on to each member individually.<br>
+
+On the Channel tab, set the mode to Manual Configuration and enter a channel name and a password for that channel. This is the chat channel which will be used to pass calendar event data between members of your guild.<br>
+
+Turn on the Store Auto-config Data in Player Note checkbox and enter the name of one of the members of your guild. It doesn't matter which member it is and using an otherwise meaningless member such as a guild mule is a good idea. The public note for that player will be changed to a configuration string which GroupCalendar will automatically find and use to configure itself for your members.<br>
+NOTE: When you need to change the data channel password you should also change the name of the data channel. This is because their is no real concept of channel ownership in World of Warcraft (ownership is arbitrarily passed to someone else in the channel when the current owner logs off). This makes it very difficult to change only the password, so whenever changing the channel configuration always change both the name and password for the channel.<br>
+
+Finally, go to the Trust tab and set the trust group to Guild Members Only and set the minimum rank at which people are allowed to post events to the calendar.<br>
+NOTE: If you are in an alliance with one or more other guilds and want to share calendars with them, you should set the trust group to Anyone Who Has Access to the Data Channel. Their guild administrator should set their configuration to match yours. Also, if you need to change the data channel then you will need to notify their administrator so they can change it for their guild as well.
+
+## Manuelles Einrichten
+If you are not in a guild or are in a guild which doesn't use the automatic setup feature then you will need to manually configure the channel and trust settings.<br>
+In the Channel tab set the calendar for Manual Channel Configuration and enter the channel name and password for the chat channel you want to use to exchange calendar data.<br>
+In the Trust tab set the trust group to either Anyone or Only Those Listed Below depending on your preference. If you set it to Only Those Listed Below then you will need to manually add each person you want to share calendars with to the Additional Players list. Simply enter their name in the Player Name field and click the Trust button to add them.
