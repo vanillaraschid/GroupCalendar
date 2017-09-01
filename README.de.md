@@ -119,53 +119,22 @@ Using a maximum value for a class ensures that you won't fill all of your extra 
 
 If you don't want any players at all of a certain class, set the maximum for that class to zero.
 ## Einen Spieler manuell hinzufügen
-To add a player manually to an event first select the event and then go to the 
-			Attendance tab.</p>
-		<p>You can then add players in one of two ways. The basic way is to click the Add 
-			button at the bottom of the attendance view and fill in the various fields of 
-			the Add Player dialog. If the player is in your guild then you only need to 
-			provide their name and the other fields will be filled in automatically.</p>
-		<p>Alternatively you can add players via whispers. This is especially useful if 
-			your guild customarily does signups for events by having player whisper for 
-			invites at the start of the event rather than signing up in advance. At the top 
-			of the attendance list for the event there will be a category named Recent 
-			Whispers (this category won't be present if you aren't the creator of the event 
-			or if nobody has whispered you since you logged on). Use the menu next to the 
-			first whisper and choose Add Player to bring up the Add Player dialog.</p>
-		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddWhisper.jpg"></div>
-		<p>Here you can see the last whisper from that player and decide what to do with 
-			them. If you want to add them to your event, fill in any missing fields and 
-			choose whether they should be set to Accepted or to Standby. Optionally, you 
-			can provide a response whisper, usually a confirmation that they've been added. 
-			This response whisper will be remembered and used for subsequent players as you 
-			add them.&nbsp;Click the Save button to add the player to the event and that 
-			whisper will be removed and the next whisper will automatically be displayed.</p>
-		<p>If the whisper isn't related to the event you can click the Delete button and it 
-			will be discarded and the next whisper will be displayed</p>
-		<p>If you don't want to process any more whispers, click the Done button to save 
-			and exit from the dialog or the Cancel button to exit without doing anything 
-			with the current whisper.</p>
-		<h2><a name="Group">Party/Raid management</a></h2>
-		<p>GroupCalendar can assist you with putting your party or raid together for your 
-			event. It can automatically choose players for your party, invite those players 
-			to your group, and help fill extra spaces when people have to leave.</p>
-		<p>To access the party/raid management features, open your event and go to the 
-			Attendance tab. There you will see two tabs on the attendance list, All and 
-			Group. Select the Group tab.</p>
-		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/Group.jpg"></div>
-		<p>This view shows all of the attendees who are either accepted or on standby for 
-			the event as well as any players currently grouped with you, including your own 
-			character. All players will show a status in parenthesis next to their name. 
-			Possible values are:
-			<ul>
-				<li>
-					<span class="GameFontHighlight">Joined</span>
-				The player is in your party or raid. Note that your own character will always 
-				show this as its status
-				<li>
-					<span class="GameFontHighlight">Ready</span>
-				You have accepted the player for this event but have not yet invited them to 
-				your party or raid
+To add a player manually to an event first select the event and then go to the Attendance tab.<br>
+You can then add players in one of two ways. The basic way is to click the Add button at the bottom of the attendance view and fill in the various fields of the Add Player dialog. If the player is in your guild then you only need to provide their name and the other fields will be filled in automatically.<br>
+
+Alternatively you can add players via whispers. This is especially useful if your guild customarily does signups for events by having player whisper for invites at the start of the event rather than signing up in advance. At the top of the attendance list for the event there will be a category named Recent Whispers (this category won't be present if you aren't the creator of the event or if nobody has whispered you since you logged on). Use the menu next to the first whisper and choose Add Player to bring up the Add Player dialog.<br>
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddWhisper.jpg">
+Here you can see the last whisper from that player and decide what to do with them. If you want to add them to your event, fill in any missing fields and choose whether they should be set to Accepted or to Standby. Optionally, you can provide a response whisper, usually a confirmation that they've been added. This response whisper will be remembered and used for subsequent players as you add them. Click the Save button to add the player to the event and that whisper will be removed and the next whisper will automatically be displayed.<br>
+If the whisper isn't related to the event you can click the Delete button and it will be discarded and the next whisper will be displayed.<br>
+If you don't want to process any more whispers, click the Done button to save and exit from the dialog or the Cancel button to exit without doing anything with the current whisper.
+## Gruppen/Schlachtzug Management
+GroupCalendar can assist you with putting your party or raid together for your event. It can automatically choose players for your party, invite those players to your group, and help fill extra spaces when people have to leave.<br>
+
+To access the party/raid management features, open your event and go to the Attendance tab. There you will see two tabs on the attendance list, All and Group. Select the Group tab.<br>
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/Group.jpg">
+This view shows all of the attendees who are either accepted or on standby for the event as well as any players currently grouped with you, including your own character. All players will show a status in parenthesis next to their name. Possible values are:
+- **Joined** The player is in your party or raid. Note that your own character will always show this as its status
+- **Ready** You have accepted the player for this event but have not yet invited them to your party or raid
 				<li>
 					<span class="GameFontHighlight">Standby</span>
 				You have accepted the player as a standby for this event but have not yet 
