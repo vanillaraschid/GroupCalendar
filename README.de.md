@@ -86,7 +86,7 @@ Im unteren Fenster wird dir der Status deiner Teilnahmeanfrage angezeigt:
 ## Ein Event eintragen
 Um ein Event einzutragen, klicke auf den Tag an dem das Event stattfinden soll, dann clicke auf den Knopf *Neues Event* im Tagesablauffenster.
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg">
-**Event** legtdas Symbol fest und wird auch als Titel genutzt, sollte keiner eingegeben werden
+**Event** legt das Symbol fest und wird auch als Titel genutzt, sollte keiner eingegeben werden
 **Title** legt einen optionalen Titel für das Event fest
 **Time** legt die Startzeit für das Event fest. Geburtstage haben keine Startzeit.
 **Duration** damit wird die voraussichtliche Dauer des Events eingestellt. Geburtstage haben keine Dauer.
@@ -105,11 +105,11 @@ Um manuell die Teilnahmen zu bestätigen muss die Automatische Zusage ausgeschal
 Um die automatische Zusage zu benutzen, aktiviere *Enable automatic confirmations*. Du kannst bestimmte Limits für das Event unter dem *Settings*-Knopf einstellen. Dies kann beinhalten eine Minimum- und Maximalanzahl an Spielern sowie Klassen.<br>
 Der *Add*-Knopf unten beim Teilnahmefenster kann dafür benutzt werden dem Event manuell Spieler hinzuzufügen, mehr dazu im nächsten Abschnitt.
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ConfirmationLimits.jpg">
-Wenn du Limits benutzt wirdn Spielern die Teilnahme am Event nach folgenden Regeln zugesagt:
+Wenn du Limits benutzt wird Spielern die Teilnahme am Event nach folgenden Regeln zugesagt:
 - Wenn eine Minimumanzahl für die Klasse eingestellt wurde und die minimale Anzahl noch nicht erreicht ist, wird dem Spieler zugesagt
 - Wenn eine Maximalanzahl für die Klasse eingestellt wurde und das Maximum ist erreicht, landet der Spieler auf der Warteliste
 - Wenn eine Maximalanzahl an Spielern für das Event eingestellt wurde und dies ist noch nicht erreicht, erhält der Spieler eine Zusage
-- Ansonsten landet der Spieler auf der Warteliste<br>
+- Ansonsten landet der Spieler auf der Warteliste
 
 Das hört sich zunächst verwirrend an, aber hoffentlich wirst du feststellen, dass die Spieler eine Zusage bekommen, wie du es erwartest. Es ist relativ einfach zu verstehen wie die Minimalanzahl funktioniert, da dort die Klasse eingeladen wird bis das Minimum erreicht ist. Die Vergabe der Plätze zwischen der Minimal- und Maximalanzahl sieht zunächst verwirrend aus.
 Als Minimum an Spielern ist die Summe der Mindestanzahl aller Klassen, als Maximum ist die eingestellte Größe des Events.
