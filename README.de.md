@@ -104,7 +104,7 @@ Um ein Event zu löschen wähle den Tag des Events im Kalender und klicke auf da
 GroupCalendar hat die Möglichkeit die Teilnahmen für Instanzen und Treffen nachzuverfolgen (es gibt keine Teilnahme bei Geburtstagen). Außerdem können Anmeldungen automatisch in Teilnahmen umgewandelt werden unter Berücksichtigung der eingestellten Klassenlimits. Es kann aber natürlich auch manuell die Zusagen für die Teilnahme erteilt werden.<br>
 Um manuell die Teilnahmen zu bestätigen muss die Automatische Zusage ausgeschaltet werden. Spieler die sich in diesem Modus bei dem Event anmelden landen automatisch auf der Standbyliste. Mit dem Menü neben ihrem Namen kannst du nun den Status (Accepted-Declined) ändern.<br>
 Um die automatische Zusage zu benutzen, aktiviere *Enable automatic confirmations*. Du kannst bestimmte Limits für das Event unter dem *Settings*-Knopf einstellen. Dies kann beinhalten eine Minimum- und Maximalanzahl an Spielern sowie Klassen.<br>
-Der *Add*-Knopf unten beim Teilnahmefenster kann dafür benutzt werden dem Event manuell Spieler hinzuzufügen, mehr dazu im nächsten Abschnitt.
+Der *Add*-Knopf unten beim Teilnahmefenster kann dafür benutzt werden dem Event manuell Spieler hinzuzufügen, mehr dazu im nächsten Abschnitt.<br>
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ConfirmationLimits.jpg"><br>
 Wenn du Limits benutzt wird Spielern die Teilnahme am Event nach folgenden Regeln zugesagt:
 - Wenn eine Minimumanzahl für die Klasse eingestellt wurde und die minimale Anzahl noch nicht erreicht ist, wird dem Spieler zugesagt<br>
