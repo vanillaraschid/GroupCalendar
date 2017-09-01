@@ -105,7 +105,7 @@ Um manuell die Teilnahmen zu bestätigen muss die Automatische Zusage ausgeschal
 Um die automatische Zusage zu benutzen, aktiviere *Enable automatic confirmations*. Du kannst bestimmte Limits für das Event unter dem *Settings*-Knopf einstellen. Dies kann beinhalten eine Minimum- und Maximalanzahl an Spielern sowie Klassen.<br>
 Der *Add*-Knopf unten beim Teilnahmefenster kann dafür benutzt werden dem Event manuell Spieler hinzuzufügen, mehr dazu im nächsten Abschnitt.
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ConfirmationLimits.jpg">
-Wenn du Limits benutzt wirdn Spielern die Teilnahme am Event nach folgenden Regeln zugesagt:<br>
+Wenn du Limits benutzt wirdn Spielern die Teilnahme am Event nach folgenden Regeln zugesagt:
 - Wenn eine Minimumanzahl für die Klasse eingestellt wurde und die minimale Anzahl noch nicht erreicht ist, wird dem Spieler zugesagt
 - Wenn eine Maximalanzahl für die Klasse eingestellt wurde und das Maximum ist erreicht, landet der Spieler auf der Warteliste
 - Wenn eine Maximalanzahl an Spielern für das Event eingestellt wurde und dies ist noch nicht erreicht, erhält der Spieler eine Zusage
