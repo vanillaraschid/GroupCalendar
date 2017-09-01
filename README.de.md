@@ -84,10 +84,8 @@ Im unteren Fenster wird dir der Status deiner Teilnahmeanfrage angezeigt:
 - **Confirmed - On Standy** Anfrage beim Eventersteller angekommen und du wurdest auf die Warteliste gesetzt (kann auch automatisch passieren!)
 - **Confirmed - Declined** Anfrage beim Eventersteller angekommen, aber deine wurde Teilnahme abgelehnt
 ## Ein Event eintragen
-
-		<p>To add an event click on the day that you want the event to take place, then 
-			click the New Event button in the schedule window.</p>
-		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"></div>
+Um ein Event einzutragen, klicke auf den Tag an dem das Event stattfinden soll, dann clicke auf den Knopf *Neues Event* im Tagesablauffenster.
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg">
 		<p><b>Event</b> is used to set the icon for the event and will also be used as the 
 			title if you don't provide a title of your own.</p>
 		<p><b>Title</b> sets an optional title for the event</p>
