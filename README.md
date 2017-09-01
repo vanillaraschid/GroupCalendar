@@ -11,8 +11,9 @@ Open - icon in the minimap or
 Edit: European time format default 
 
 --------------------------------------
-### content of  GroupCalendar/Documentation/UsersManual.html 
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg"/>
+### content of  GroupCalendar/Documentation/UsersManual.html 
+
 <html>
 	<body>
 		<span class="title"><img align="absMiddle" src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/CalendarIcon.jpg">GroupCalendar Instructions</span>
