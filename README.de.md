@@ -38,10 +38,10 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 - [Die Kalenderdarstellung](#die-kalenderdarstellung)
 - [Teilnahme](#teilnahme)
 - [Ein Event eintragen](#ein-event-eintragen)
-- [Ein Event bearbeiten](#edit)
-- [Ein Event löschen](#delete)
-- [Eventteilnahme](#attendance)
-- [Einen Spieler manuell hinzufügen](#addplayer)
+- [Ein Event bearbeiten](#ein-event-bearbeiten)
+- [Ein Event löschen](#ein-event-löschen)
+- [Teilnahme](#teilnahme)
+- [Einen Spieler manuell hinzufügen](#einen-spieler-manuell-hinzufügenr)
 - [Gruppen/Schlachtzug Management](#group)
 - [Events von einem Spieler ignorieren](#ignore)
 - [Einrichten als Gildenadministator](#admin)
@@ -86,82 +86,39 @@ Im unteren Fenster wird dir der Status deiner Teilnahmeanfrage angezeigt:
 ## Ein Event eintragen
 Um ein Event einzutragen, klicke auf den Tag an dem das Event stattfinden soll, dann clicke auf den Knopf *Neues Event* im Tagesablauffenster.
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg">
-		<p><b>Event</b> is used to set the icon for the event and will also be used as the 
-			title if you don't provide a title of your own.</p>
-		<p><b>Title</b> sets an optional title for the event</p>
-		<p><b>Time</b> sets the start time for the event. Birthday events will not show a 
-			Time field.</p>
-		<p><b>Duration</b> sets how long the event is expected to last. Birthday events 
-			will not show a Duration field.</p>
-		<p><b>Levels</b> sets an optional level range for the event. Players who are not 
-			within the specified level range will see the event as dimmed in their calendar 
-			and will not be allowed to provide attendance feedback for the event. The level 
-			range field is not display for Birthday or Meeting events.</p>
-		<p><b>Description</b> sets an optional description for the event. This could be 
-			used to clarify which part of a dungeon the event will cover or what a 
-			meeting's agenda will be.</p>
-		<P>To automatically sign yourself up for the event, check the "will attend" box at 
-			the bottom of the window.</P>
-		<p>Once you've set up your event, click the Done button to save it to the calendar. 
-			If you change your mind and don't want the event, click the Delete button.</p>
-		<h2><a name="Edit">Editing an event</a></h2>
-		<p>To edit an event select the date in the calendar and then click the event in the 
-			day schedule. You can then make any changes to the event and click the Done 
-			button to save the changes to the calendar.</p>
-		<h2><a name="Delete">Deleting an event</a></h2>
-		<p>To delete an event select the date of the event in the calendar and then click 
-			the event in the schedule window. In the event editor click the Delete button 
-			and then confirm the deletion in the dialog which appears.</p>
-		<h2><a name="Attendance">Event attendance</a></h2>
-		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/Attendance.jpg"></div>
-		<p>GroupCalendar has the ability to track attendance responses to dungeon and 
-			meeting events (there is not attendance feedback for birthday events). 
-			Additionally, attendance requests can be processed automatically using 
-			specified class limits or the requests can be manually processed.</p>
-		<p>To use manual confirmations turn off Enable automatic confirmations. Users who 
-			request to attend your event will always be placed into the standby list in 
-			this mode. You can then use the menu next to their name to change their status 
-			to Accepted or Declined if desired.</p>
-		<p>To use automatic confirmations turn on Enable automatic confirmations. You can 
-			then specify limits for your event using the Settings button. Those limits 
-			instruct GroupCalendar how many people you want for your event as well as what 
-			class composition you want.</p>
-		<P>The Add button at the bottom of the attendance view can be used to manually add 
-			players to the event.&nbsp; See the next section on manually adding players for 
-			more information about this feature.</P>
-		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ConfirmationLimits.jpg"></div>
-		<p>When using limits, players will be confirmed for the event using these rules:</p>
-		<p>If there's a minimum set for their class and that minimum hasn't been met, the 
-			player is confirmed</p>
-		<p>If there's a maximum set for their class and that maximum has already been 
-			reached, the player is placed on standby</p>
-		<p>If there's a maximum number of players set for the event and it hasn't been 
-			reached then the player is confirmed</p>
-		<P>Otherwise, the player is placed on the standby list</P>
-		<p>This may seem confusing but hopefully you will find that players are accepted 
-			for your group in the way you would expect. It's fairly easy to understand how 
-			minimums work since that class will simply be filled in until the minimum is 
-			reached. How spaces are given out between the minimum and maximum values may 
-			seem a little confusing however. At the bottom of the limits window is the 
-			total of all the minimums you've entered for all classes combined as well as a 
-			setting for the maximum size for the event.&nbsp; The players between these 
-			minimum and maximum values are considered "extras" and those extra slots will 
-			be made available on a first-come-first-served basis to all players, as long as 
-			the maximum for a player's class hasn't been reached. For example, if the total 
-			of all the class minimums is 32 players and the maximum size of the raid 40 
-			players, then there are 8 spaces available for extra players. These slots will 
-			be given out to the first players who request them, unless the maximum for that 
-			players class has already been reached.</p>
-		<p>Using a minimum value for a class ensures that space will be reserved in your 
-			event for that many players of the class.&nbsp; Leaving minimum blank is the 
-			same as setting the minimum to zero.</p>
-		<p>Using a maximum value for a class ensures that you won't fill all of your extra 
-			spaces with only that class.&nbsp; Leaving maximum blank means that there is no 
-			maximum for the class and that it's ok for all of the extra spaces to be filled 
-			by that class.</p>
-		<P>If you don't want any players at all of a certain class, set the maximum for 
-			that class to zero.</P>
-		<h2><a name="AddPlayer">Adding players manually</a></h2>
+**Event** is used to set the icon for the event and will also be used as the title if you don't provide a title of your own.
+**Title** sets an optional title for the event
+**Time** sets the start time for the event. Birthday events will not show a Time field.
+**Duration** sets how long the event is expected to last. Birthday events will not show a Duration field.
+**Levels** sets an optional level range for the event. Players who are not within the specified level range will see the event as dimmed in their calendar and will not be allowed to provide attendance feedback for the event. The level range field is not display for Birthday or Meeting events.
+**Description** sets an optional description for the event. This could be used to clarify which part of a dungeon the event will cover or what a meeting's agenda will be.<br>
+To automatically sign yourself up for the event, check the "will attend" box at the bottom of the window.<br>
+Once you've set up your event, click the Done button to save it to the calendar. If you change your mind and don't want the event, click the Delete button.
+## Ein Event bearbeiten
+To edit an event select the date in the calendar and then click the event in the day schedule. You can then make any changes to the event and click the Done button to save the changes to the calendar.
+## Ein Event löschen
+To delete an event select the date of the event in the calendar and then click 	the event in the schedule window. In the event editor click the Delete button and then confirm the deletion in the dialog which appears.
+## Teilnahme
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/Attendance.jpg">
+GroupCalendar has the ability to track attendance responses to dungeon and meeting events (there is not attendance feedback for birthday events). Additionally, attendance requests can be processed automatically using specified class limits or the requests can be manually processed.<br>
+To use manual confirmations turn off Enable automatic confirmations. Users who 	request to attend your event will always be placed into the standby list in this mode. You can then use the menu next to their name to change their status to Accepted or Declined if desired.<br>
+To use automatic confirmations turn on Enable automatic confirmations. You can 	then specify limits for your event using the Settings button. Those limits instruct GroupCalendar how many people you want for your event as well as what class composition you want.<br>
+The Add button at the bottom of the attendance view can be used to manually add players to the event.&nbsp; See the next section on manually adding players for more information about this feature.
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ConfirmationLimits.jpg">
+When using limits, players will be confirmed for the event using these rules:<br>
+- If there's a minimum set for their class and that minimum hasn't been met, the player is confirmed
+- If there's a maximum set for their class and that maximum has already been reached, the player is placed on standby
+- If there's a maximum number of players set for the event and it hasn't been reached then the player is confirmed
+- Otherwise, the player is placed on the standby list<br>
+
+This may seem confusing but hopefully you will find that players are accepted for your group in the way you would expect. It's fairly easy to understand how minimums work since that class will simply be filled in until the minimum is reached. How spaces are given out between the minimum and maximum values may seem a little confusing however. At the bottom of the limits window is the total of all the minimums you've entered for all classes combined as well as a setting for the maximum size for the event. The players between these minimum and maximum values are considered "extras" and those extra slots will be made available on a first-come-first-served basis to all players, as long as the maximum for a player's class hasn't been reached. For example, if the total of all the class minimums is 32 players and the maximum size of the raid 40 players, then there are 8 spaces available for extra players. These slots will be given out to the first players who request them, unless the maximum for that players class has already been reached.<br>
+
+Using a minimum value for a class ensures that space will be reserved in your event for that many players of the class.&nbsp; Leaving minimum blank is the same as setting the minimum to zero.<br>
+
+Using a maximum value for a class ensures that you won't fill all of your extra spaces with only that class. Leaving maximum blank means that there is no maximum for the class and that it's ok for all of the extra spaces to be filled by that class.<br>
+
+If you don't want any players at all of a certain class, set the maximum for that class to zero.
+## Einen Spieler manuell hinzufügen
 		<p>To add a player manually to an event first select the event and then go to the 
 			Attendance tab.</p>
 		<p>You can then add players in one of two ways. The basic way is to click the Add 
