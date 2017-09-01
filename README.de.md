@@ -100,7 +100,7 @@ Um ein Event zu bearbeiten wähle das Datum im Kalender aus und klicke den Termi
 ## Ein Event löschen
 Um ein Event zu löschen wähle den Tag des Events im Kalender und klicke auf das Event in der Tagesübersicht. Nun kannst du das Event im Bearbeitungsfenster löschen in dem du den *Delete*-Knopf anklickst und die Löschung im auftauchenden Fenster bestätigst.
 ## Teilnahme
-<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/Attendance.jpg">
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/Attendance.jpg"><br>
 **GroupCalendar** hat die Möglichkeit die Teilnahmen für Instanzen und Treffen nachzuverfolgen (es gibt keine Teilnahme bei Geburtstagen). Außerdem können Anmeldungen automatisch in Teilnahmen umgewandelt werden unter Berücksichtigung der eingestellten Klassenlimits. Es kann aber natürlich auch manuell die Zusagen für die Teilnahme erteilt werden.<br>
 Um manuell die Teilnahmen zu bestätigen muss die **Automatische Zusage** ausgeschaltet werden. Spieler die sich in diesem Modus bei dem Event anmelden landen automatisch auf der Standbyliste. Mit dem Menü neben ihrem Namen kannst du nun den Status (Accepted-Declined) ändern.<br>
 Um die automatische Zusage zu benutzen, aktiviere *Enable automatic confirmations*. Du kannst bestimmte Limits für das Event unter dem *Settings*-Knopf einstellen. Dies kann beinhalten eine Minimum- und Maximalanzahl an Spielern sowie Klassen.<br>
