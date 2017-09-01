@@ -114,9 +114,10 @@ Wenn du Limits benutzt wird Spielern die Teilnahme am Event nach folgenden Regel
 
 Das hört sich zunächst verwirrend an, aber hoffentlich wirst du feststellen, dass die Spieler eine Zusage bekommen, wie du es erwartest. Es ist relativ einfach zu verstehen wie die Minimalanzahl funktioniert, da dort die Klasse eingeladen wird bis das Minimum erreicht ist. Die Vergabe der Plätze zwischen der Minimal- und Maximalanzahl sieht zunächst verwirrend aus.
 Als Minimum an Spielern ist die Summe der Mindestanzahl aller Klassen, als Maximum ist die eingestellte Größe des Events.
-Die Spieler dazwischen werden als "extras" betrachtet und diese Extraplätze werden nach dem "Wer zuerst kommt, mahlt zuerst"-prinzip vergeben, solange nicht das Klassenlimit erreicht ist.
-Ein Beispiel:<br>
+Die Spieler dazwischen werden als "extras" betrachtet und diese Extraplätze werden nach dem "Wer zuerst kommt, mahlt zuerst"-prinzip vergeben, solange nicht das Klassenlimit erreicht ist.<br>
+**Ein Beispiel:**<br>
 Wenn das Klassenminimum aller Klassen zusammen 32 Spieler ist und das Maximum für den Schlachtzug 40 Spieler ist, dann sind 8 Plätze für "extra-Spieler" verfügbar. Diese Plätze werden an die Spieler vergeben, welche sich zuerst anmelden, außer der die Klasse des angemeldeten Spielers hat schon die Maximalanzahl erreicht.<br>
+
 Mit der Minimalanzahl für eine Klasse gehst du sicher, dass genug Plätze beim Event für die Klasse reserviert sind. Die Minimalanzahl leer lassen ist das gleiche wie die Minimalanzahl auf 0 zu setzen.<br>
 Mit der Maximalanzahl für eine Klasse gehst du sicher, das die Extraplätze nicht nur mit einer Klasse belegt werden. Die Maximalanzahl leer zu lassen bedeutet, dass es in Ordnung für dich wäre, dass alle Extraplätze an diese Klasse gehen.<br>
 
