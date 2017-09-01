@@ -42,7 +42,7 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 - [Ein Event löschen](#ein-event-löschen)
 - [Teilnahme](#teilnahme)
 - [Einen Spieler manuell hinzufügen](#einen-spieler-manuell-hinzufügen)
-- [Gruppen/Schlachtzug Management](#gruppen/schlachtzug-management)
+- [Gruppen-Schlachtzug Management](#gruppen-schlachtzug-management)
 - [Events von einem Spieler ignorieren](#ignore)
 - [Einrichten als Gildenadministator](#admin)
 - [Manuelles Einrichten](#manual)
@@ -127,7 +127,7 @@ Alternatively you can add players via whispers. This is especially useful if you
 Here you can see the last whisper from that player and decide what to do with them. If you want to add them to your event, fill in any missing fields and choose whether they should be set to Accepted or to Standby. Optionally, you can provide a response whisper, usually a confirmation that they've been added. This response whisper will be remembered and used for subsequent players as you add them. Click the Save button to add the player to the event and that whisper will be removed and the next whisper will automatically be displayed.<br>
 If the whisper isn't related to the event you can click the Delete button and it will be discarded and the next whisper will be displayed.<br>
 If you don't want to process any more whispers, click the Done button to save and exit from the dialog or the Cancel button to exit without doing anything with the current whisper.
-## Gruppen/Schlachtzug Management
+## Gruppen-Schlachtzug Management
 GroupCalendar can assist you with putting your party or raid together for your event. It can automatically choose players for your party, invite those players to your group, and help fill extra spaces when people have to leave.<br>
 
 To access the party/raid management features, open your event and go to the Attendance tab. There you will see two tabs on the attendance list, All and Group. Select the Group tab.<br>
