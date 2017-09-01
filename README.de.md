@@ -86,43 +86,45 @@ Im unteren Fenster wird dir der Status deiner Teilnahmeanfrage angezeigt:
 ## Ein Event eintragen
 Um ein Event einzutragen, klicke auf den Tag an dem das Event stattfinden soll, dann clicke auf den Knopf *Neues Event* im Tagesablauffenster.
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddEditEvent.jpg">
-**Event** is used to set the icon for the event and will also be used as the title if you don't provide a title of your own.
-**Title** sets an optional title for the event
-**Time** sets the start time for the event. Birthday events will not show a Time field.
-**Duration** sets how long the event is expected to last. Birthday events will not show a Duration field.
-**Levels** sets an optional level range for the event. Players who are not within the specified level range will see the event as dimmed in their calendar and will not be allowed to provide attendance feedback for the event. The level range field is not display for Birthday or Meeting events.
-**Description** sets an optional description for the event. This could be used to clarify which part of a dungeon the event will cover or what a meeting's agenda will be.<br>
-To automatically sign yourself up for the event, check the "will attend" box at the bottom of the window.<br>
-Once you've set up your event, click the Done button to save it to the calendar. If you change your mind and don't want the event, click the Delete button.
+**Event** legtdas Symbol fest und wird auch als Titel genutzt, sollte keiner eingegeben werden
+**Title** legt einen optionalen Titel für das Event fest
+**Time** legt die Startzeit für das Event fest. Geburtstage haben keine Startzeit.
+**Duration** damit wird die voraussichtliche Dauer des Events eingestellt. Geburtstage haben keine Dauer.
+**Levels** setzt eine optionale Levelbegrenzung fest. Spieler welche nicht in dem entsprechenden Levelbereich sind, sehen das Event verblasst im Kalender und können nicht an dem Event teilnehmen. Es gibt keine Levelbegrenzung für Geburtstage und Treffen.
+**Description** legt eine optionale Beschreibung fest. Dies könnte dafür diesen welchen Teil der Instanz das Event als Ziel hat oder worum es bei dem Treffen geht.<br>
+Um sich automatisch für das Event anzumelden setze das Häkchen bei *Will attend* unten im Fenster.<br>
+Wenn du das Event fertig eingestellt hast, klicke auf den *Done*-Knopf. Wenn du deinen Meinung geändert hast und das Event nicht erstellen möchstest, drücke den *Delete*-Knopf.
 ## Ein Event bearbeiten
-To edit an event select the date in the calendar and then click the event in the day schedule. You can then make any changes to the event and click the Done button to save the changes to the calendar.
+Um ein Event zu bearbeiten wähle das Datum im Kalender aus und klicke den Termin an im Tagesprogramm. Jetzt kannst du den Termin bearbeiten und mit Klicken auf den *Done*-Knopf die Änderungen im Kalender speichern.
 ## Ein Event löschen
-To delete an event select the date of the event in the calendar and then click 	the event in the schedule window. In the event editor click the Delete button and then confirm the deletion in the dialog which appears.
+Um ein Event zu löschen wähle den Tag des Events im Kalender und klicke auf das Event in der Tagesübersicht. Nun kannst du das Event im Bearbeitungsfenster löschen in dem du den *Delete*-Knopf anklickst und die Löschung im auftauchenden Fenster bestätigst.
 ## Teilnahme
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/Attendance.jpg">
-GroupCalendar has the ability to track attendance responses to dungeon and meeting events (there is not attendance feedback for birthday events). Additionally, attendance requests can be processed automatically using specified class limits or the requests can be manually processed.<br>
-To use manual confirmations turn off Enable automatic confirmations. Users who 	request to attend your event will always be placed into the standby list in this mode. You can then use the menu next to their name to change their status to Accepted or Declined if desired.<br>
-To use automatic confirmations turn on Enable automatic confirmations. You can 	then specify limits for your event using the Settings button. Those limits instruct GroupCalendar how many people you want for your event as well as what class composition you want.<br>
-The Add button at the bottom of the attendance view can be used to manually add players to the event.&nbsp; See the next section on manually adding players for more information about this feature.
+GroupCalendar hat die Möglichkeit die Teilnahmen für Instanzen und Treffen nachzuverfolgen (es gibt keine Teilnahme bei Geburtstagen). Außerdem können Anmeldungen automatisch in Teilnahmen umgewandelt werden unter Berücksichtigung der eingestellten Klassenlimits. Es kann aber natürlich auch manuell die Zusagen für die Teilnahme erteilt werden.<br>
+Um manuell die Teilnahmen zu bestätigen muss die Automatische Zusage ausgeschaltet werden. Spieler die sich in diesem Modus bei dem Event anmelden landen automatisch auf der Standbyliste. Mit dem Menü neben ihrem Namen kannst du nun den Status (Accepted/Declined) ändern.<br>
+Um die automatische Zusage zu benutzen, aktiviere *Enable automatic confirmations*. Du kannst bestimmte Limits für das Event unter dem *Settings*-Knopf einstellen. Dies kann beinhalten eine Minimum- und Maximalanzahl an Spielern sowie Klassen.<br>
+Der *Add*-Knopf unten beim Teilnahmefenster kann dafür benutzt werden dem Event manuell Spieler hinzuzufügen, mehr dazu im nächsten Abschnitt.
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ConfirmationLimits.jpg">
-When using limits, players will be confirmed for the event using these rules:<br>
-- If there's a minimum set for their class and that minimum hasn't been met, the player is confirmed
-- If there's a maximum set for their class and that maximum has already been reached, the player is placed on standby
-- If there's a maximum number of players set for the event and it hasn't been reached then the player is confirmed
-- Otherwise, the player is placed on the standby list<br>
+Wenn du Limits benutzt wirdn Spielern die Teilnahme am Event nach folgenden Regeln zugesagt:<br>
+- Wenn eine Minimumanzahl für die Klasse eingestellt wurde und die minimale Anzahl noch nicht erreicht ist, wird dem Spieler zugesagt
+- Wenn eine Maximalanzahl für die Klasse eingestellt wurde und das Maximum ist erreicht, landet der Spieler auf der Warteliste
+- Wenn eine Maximalanzahl an Spielern für das Event eingestellt wurde und dies ist noch nicht erreicht, erhält der Spieler eine Zusage
+- Ansonsten landet der Spieler auf der Warteliste<br>
 
-This may seem confusing but hopefully you will find that players are accepted for your group in the way you would expect. It's fairly easy to understand how minimums work since that class will simply be filled in until the minimum is reached. How spaces are given out between the minimum and maximum values may seem a little confusing however. At the bottom of the limits window is the total of all the minimums you've entered for all classes combined as well as a setting for the maximum size for the event. The players between these minimum and maximum values are considered "extras" and those extra slots will be made available on a first-come-first-served basis to all players, as long as the maximum for a player's class hasn't been reached. For example, if the total of all the class minimums is 32 players and the maximum size of the raid 40 players, then there are 8 spaces available for extra players. These slots will be given out to the first players who request them, unless the maximum for that players class has already been reached.<br>
+Das hört sich zunächst verwirrend an, aber hoffentlich wirst du feststellen, dass die Spieler eine Zusage bekommen, wie du es erwartest. Es ist relativ einfach zu verstehen wie die Minimalanzahl funktioniert, da dort die Klasse eingeladen wird bis das Minimum erreicht ist. Die Vergabe der Plätze zwischen der Minimal- und Maximalanzahl sieht zunächst verwirrend aus.
+Als Minimum an Spielern ist die Summe der Mindestanzahl aller Klassen, als Maximum ist die eingestellte Größe des Events.
+Die Spieler dazwischen werden als "extras" betrachtet und diese Extraplätze werden nach dem "Wer zuerst kommt, mahlt zuerst"-prinzip vergeben, solange nicht das Klassenlimit erreicht ist.
+Ein Beispiel:<br>
+Wenn das Klassenminimum aller Klassen zusammen 32 Spieler ist und das Maximum für den Schlachtzug 40 Spieler ist, dann sind 8 Plätze für "extra-Spieler" verfügbar. Diese Plätze werden an die Spieler vergeben, welche sich zuerst anmelden, außer der die Klasse des angemeldeten Spielers hat schon die Maximalanzahl erreicht.<br>
+Mit der Minimalanzahl für eine Klasse gehst du sicher, dass genug Plätze beim Event für die Klasse reserviert sind. Die Minimalanzahl leer lassen ist das gleiche wie die Minimalanzahl auf 0 zu setzen.<br>
+Mit der Maximalanzahl für eine Klasse gehst du sicher, das die Extraplätze nicht nur mit einer Klasse belegt werden. Die Maximalanzahl leer zu lassen bedeutet, dass es in Ordnung für dich wäre, dass alle Extraplätze an diese Klasse gehen.<br>
 
-Using a minimum value for a class ensures that space will be reserved in your event for that many players of the class.&nbsp; Leaving minimum blank is the same as setting the minimum to zero.<br>
-
-Using a maximum value for a class ensures that you won't fill all of your extra spaces with only that class. Leaving maximum blank means that there is no maximum for the class and that it's ok for all of the extra spaces to be filled by that class.<br>
-
-If you don't want any players at all of a certain class, set the maximum for that class to zero.
+Wenn du keine Spieler einer bestimmten Klasse haben willst, dann setze die Maximalanzahl auf 0 bei dieser Klasse.
 ## Einen Spieler manuell hinzufügen
-To add a player manually to an event first select the event and then go to the Attendance tab.<br>
-You can then add players in one of two ways. The basic way is to click the Add button at the bottom of the attendance view and fill in the various fields of the Add Player dialog. If the player is in your guild then you only need to provide their name and the other fields will be filled in automatically.<br>
-
-Alternatively you can add players via whispers. This is especially useful if your guild customarily does signups for events by having player whisper for invites at the start of the event rather than signing up in advance. At the top of the attendance list for the event there will be a category named Recent Whispers (this category won't be present if you aren't the creator of the event or if nobody has whispered you since you logged on). Use the menu next to the first whisper and choose Add Player to bring up the Add Player dialog.<br>
+Um einen Spieler manuell dem Event hinzuzufügen wähle zuerst das Event aus und dann gehe zum *Attendance*-Reiter.<br>
+Du kannst einen Spieler auf zwei Arten hinzufügen:
+- der Standardweg ist den *Add*-Knopf im unteren *Attendance*-Fenster anzuklicken und die Felder im *Add Player*-Dialog auszufüllen. Wenn der Spieler in deiner Gilde ist, dann brauchst du nur den Namen einzugeben, die restlichen Felder werden automatisch ausgefüllt.<br>
+- Alternativ kannst du auch Spieler übers flüstern hinzufügen. Dies ist besonders nützlich wenn deine Gilde woanders sich anmeldet und für Einladung zum Event ein Spieler angeflüstert wird. Oben bei der *Attendance*-Liste für das Event ist eine Kategorie für kürzliche Nachrichten(dies ist nicht vorhanden wenn du nicht der Ersteller des Events bist oder wen dich niemand angeflüstert hat seitdem du eingeloggt hast). Benutze das Menü neben der ersten Nachricht und wähle *Add Player* aus um den *Add Player*-Dialog zu öffnen.<br>
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddWhisper.jpg">
 Here you can see the last whisper from that player and decide what to do with them. If you want to add them to your event, fill in any missing fields and choose whether they should be set to Accepted or to Standby. Optionally, you can provide a response whisper, usually a confirmation that they've been added. This response whisper will be remembered and used for subsequent players as you add them. Click the Save button to add the player to the event and that whisper will be removed and the next whisper will automatically be displayed.<br>
 If the whisper isn't related to the event you can click the Delete button and it will be discarded and the next whisper will be displayed.<br>
