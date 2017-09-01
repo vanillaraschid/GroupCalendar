@@ -43,7 +43,7 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 - [Teilnahme](#teilnahme)
 - [Einen Spieler manuell hinzufügen](#einen-spieler-manuell-hinzufügen)
 - [Gruppen-Schlachtzug Management](#gruppen-schlachtzug-management)
-- [Events von einem Spieler ignorieren](#ignore)
+- [Events von einem Spieler ignorieren](#events-von-einem-spieler-ignorieren)
 - [Einrichten als Gildenadministator](#admin)
 - [Manuelles Einrichten](#manual)
 
@@ -135,60 +135,26 @@ To access the party/raid management features, open your event and go to the Atte
 This view shows all of the attendees who are either accepted or on standby for the event as well as any players currently grouped with you, including your own character. All players will show a status in parenthesis next to their name. Possible values are:
 - **Joined** The player is in your party or raid. Note that your own character will always show this as its status
 - **Ready** You have accepted the player for this event but have not yet invited them to your party or raid
-				<li>
-					<span class="GameFontHighlight">Standby</span>
-				You have accepted the player as a standby for this event but have not yet 
-				invited them to your party or raid
-				<li>
-					<span class="GameFontHighlight">Invited</span>
-				You have invited the player to your party or raid but they have not yet joined 
-				the group
-				<li>
-					<span class="GameFontHighlight">In another group</span>
-				You have invited the player to your party or raid but they are already in 
-				another group
-				<li>
-					<span class="GameFontHighlight">Declined invitation</span>
-				You have invited the player to your party or raid but they declined the 
-				invitation
-				<li>
-					<span class="GameFontHighlight">Offline</span>
-				The player is offline
-				<li>
-					<span class="GameFontHighlight">Left group</span>
-					The player had joined your party or raid, but has since left the group</li>
-			</ul>
-		<p>To start forming your group you must first select the players you want to have 
-			join. You can manually select players by using the checkbox next to their name. 
-			Note that if they're already in your party or raid there won't be a checkbox 
-			and you can't select them.</p>
-		<p>To automatically select players click the Select Players button. This will give 
-			you a class limits dialog very similar to the one used for automatic 
-			confirmations. Read the section above about how automatic confirmations work 
-			for an explanation of how the limits in this dialog work as well.</p>
-		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AutoSelect.jpg"></div>
-		<p>The automatic selection dialog has one additional setting for Priority. Use this 
-			to determine if players should selected based only on their signup date or if 
-			top priority should be given to higher guild ranks with signup date used to 
-			determine who is selected within each rank.&nbsp; Note that guild rank 
-			priorities will not work properly if you have players who are not in the same 
-			guild as your character.</p>
-		<p>To invite the selected players click the Invite Selected button. This will 
-			automatically whisper everyone who is selected telling them what they're being 
-			invited to as well as sending them the actual group invite. If they are already 
-			in a group and therefore can't be invited then they will receive a second 
-			whisper telling them this. You will need to re-invite them once they inform you 
-			that they've&nbsp;left their group.</p>
-		<p>If your group is going to be a raid then only the first four invites will be 
-			sent initially. Once any of these players has accepted then the party will 
-			automatically be converted to a raid and the remaining invites will be sent.</p>
-		<h2><a name="Ignore">Ignoring other player's events</a></h2>
-		<p>If you don't want to see events posted by a particular player you can ignore 
-			them by adding their name to the Exclude list in the Trust tab. To add them, 
-			enter their name into the Player Name field and click the Exclude button.</p>
-		<p>If you later change your mind you can remove them from the Exclude list by 
-			selecting their name and clicking the Remove button.</p>
-		<div align="center"><img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/TrustSetup.jpg"></div>
+- **Standby** You have accepted the player as a standby for this event but have not yet invited them to your party or raid
+- **Invited** You have invited the player to your party or raid but they have not yet joined the group
+- **In another group** You have invited the player to your party or raid but they are already in another group
+- **Declined invitation** You have invited the player to your party or raid but they declined the invitation
+- **Offline** The player is offline
+- **Left group** The player had joined your party or raid, but has since left the group
+<br>
+To start forming your group you must first select the players you want to have join. You can manually select players by using the checkbox next to their name. Note that if they're already in your party or raid there won't be a checkbox and you can't select them.<br>
+To automatically select players click the Select Players button. This will give you a class limits dialog very similar to the one used for automatic confirmations. Read the section above about how automatic confirmations work for an explanation of how the limits in this dialog work as well.<br>
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AutoSelect.jpg">
+The automatic selection dialog has one additional setting for Priority. Use this to determine if players should selected based only on their signup date or if 	top priority should be given to higher guild ranks with signup date used to determine who is selected within each rank.&nbsp; Note that guild rank priorities will not work properly if you have players who are not in the same guild as your character.<br>
+
+To invite the selected players click the Invite Selected button. This will automatically whisper everyone who is selected telling them what they're being invited to as well as sending them the actual group invite. If they are already in a group and therefore can't be invited then they will receive a second whisper telling them this. You will need to re-invite them once they inform you that they've&nbsp;left their group.<br>
+
+If your group is going to be a raid then only the first four invites will be sent initially. Once any of these players has accepted then the party will automatically be converted to a raid and the remaining invites will be sent.
+## Events von einem Spieler ignorieren
+If you don't want to see events posted by a particular player you can ignore them by adding their name to the Exclude list in the Trust tab. To add them, enter their name into the Player Name field and click the Exclude button.<br>
+
+If you later change your mind you can remove them from the Exclude list by selecting their name and clicking the Remove button.<br>
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/TrustSetup.jpg">
 		<h2><a name="Admin">Guild administrator setup</a></h2>
 		<p>If you are an officer of your guild with the ability to set members public notes 
 			then you can also act as an administrator for GroupCalendar for your guild. 
