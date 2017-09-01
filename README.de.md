@@ -36,7 +36,7 @@ Es stellt einen Kalender für Treffen im Spiel dar, seien es Schlachtzug, Instan
 - [Den Kalender öffnen](#den-kalender-öffnen)
 - [Schnelles Einrichten](#schnelles-einrichten)
 - [Die Kalenderdarstellung](#die-kalenderdarstellung)
-- [Teilnahme](#teilnahme)
+- [Ein Event ansehen und teilnehmen](#ein-event-ansehen-und-teilnehmen)
 - [Ein Event eintragen](#ein-event-eintragen)
 - [Ein Event bearbeiten](#ein-event-bearbeiten)
 - [Ein Event löschen](#ein-event-löschen)
@@ -70,7 +70,7 @@ Um einen anderen Monat auszuwählen gibt es neben dem Monatsnamen zwei Pfeile wo
 Um schnell zum aktuellen Tag zurückzugehen ist rechts oben ein Knopf mit einem nach unten zeigenden Pfeil als Symbol.<br>
 Das Addon zeigt standardmäßig die Events mit dem Datum und Zeit des Servers an. Wenn du deine lokale Zeit benutzen willst, entferne das Häkchen bei *Use server dates and times*.<br>
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/DaySummary.jpg">
-## Teilnahme
+## Ein Event ansehen und teilnehmen
 Um Details zu einem Event zu sehen, wähle das Event aus der Eventliste für den Tag aus.<br>
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/ViewEvent.jpg">
 Hier kannst du dich für das Event anmelden, damit der Eventersteller weiß, das du teilnehmen möchstest.<br>
@@ -119,7 +119,7 @@ Using a maximum value for a class ensures that you won't fill all of your extra 
 
 If you don't want any players at all of a certain class, set the maximum for that class to zero.
 ## Einen Spieler manuell hinzufügen
-		<p>To add a player manually to an event first select the event and then go to the 
+To add a player manually to an event first select the event and then go to the 
 			Attendance tab.</p>
 		<p>You can then add players in one of two ways. The basic way is to click the Add 
 			button at the bottom of the attendance view and fill in the various fields of 
