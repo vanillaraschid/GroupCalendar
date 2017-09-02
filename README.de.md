@@ -147,12 +147,12 @@ Dies zeigt alle Teilnehmer an, welche akzeptiert oder auf der Warteliste für da
 - **Offline** Der Spieler ist offline
 - **Left group** Der Spieler ist deiner Gruppe/Schlachtzug beigetreten, aber hat die Gruppe wieder verlassen
 <br>
-To start forming your group you must first select the players you want to have join. You can manually select players by using the checkbox next to their name. Note that if they're already in your party or raid there won't be a checkbox and you can't select them.<br>
-To automatically select players click the Select Players button. This will give you a class limits dialog very similar to the one used for automatic confirmations. Read the section above about how automatic confirmations work for an explanation of how the limits in this dialog work as well.<br>
-<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AutoSelect.jpg">
-The automatic selection dialog has one additional setting for Priority. Use this to determine if players should selected based only on their signup date or if 	top priority should be given to higher guild ranks with signup date used to determine who is selected within each rank.&nbsp; Note that guild rank priorities will not work properly if you have players who are not in the same guild as your character.<br>
+Um eine Gruppe zu bilden musst du zuerst die Spieler auswählen welche zu einladen willst. Du kannst die Spieler manuell einladen in dem du das Kästchen neben dem Spielernamen auswählst. (Wenn sie bereits in der Gruppe/Schlachtzug sind ist kein Kästchen vorhanden welches zu auswählen kannst).<br>
+Um die Spieler automatisch auszuwählen klicke auf den *Select Players*-Knopf. Dies öffnet den Klassenlimit-Dialog ähnlich zu dem welches es für die automatische Bestätigung gibt. Lese den Abschnitt oben wie die automatische Bestätigung funktionert um zu verstehen nach welchen Regeln dabei Spieler eingeladen werden.<br>
+<img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AutoSelect.jpg"><br>
+Die automatische Einladung hat eine zusätzliche Einstellung für die Priorität. Benutze dies um zu bestimmen ob die Spieler nach dem Anmeldezeitpunkt oder nach Gildenrang mit Anmeldezeitpunkt eingeladen werden (dies funktioniert nicht richtig wenn du Spieler hast, die nicht in der Gilde deines Charakters sind).<br>
 
-To invite the selected players click the Invite Selected button. This will automatically whisper everyone who is selected telling them what they're being invited to as well as sending them the actual group invite. If they are already in a group and therefore can't be invited then they will receive a second whisper telling them this. You will need to re-invite them once they inform you that they've&nbsp;left their group.<br>
+Um die ausgewählten Spieler einzuladen klicke den *Invite Selected*-Knopf an Dies wird automatisch die ausgewählten Spieler anflüstern, dass sie zu dem Event eingeladen werden und ihnen eine Gruppeneinladung übersenden. Wenn sie bereits in einer Gruppe sind und deshalb nicht eingeladen werden können, bekommen sie eine zweite Nachricht welche ihnen dies mitteilt. Du musst sie nochmal einladen wenn sie dir mitgeteilt haben, dass sie die ihre Gruppe verlassen haben.<br>
 
 If your group is going to be a raid then only the first four invites will be sent initially. Once any of these players has accepted then the party will automatically be converted to a raid and the remaining invites will be sent.
 ## Events von einem Spieler ignorieren
