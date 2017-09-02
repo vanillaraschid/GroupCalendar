@@ -128,23 +128,25 @@ Du kannst einen Spieler auf zwei Arten hinzufügen:
 - der Standardweg ist den *Add*-Knopf im unteren *Attendance*-Fenster anzuklicken und die Felder im *Add Player*-Dialog auszufüllen. Wenn der Spieler in deiner Gilde ist, dann brauchst du nur den Namen einzugeben, die restlichen Felder werden automatisch ausgefüllt.<br>
 - Alternativ kannst du auch Spieler übers flüstern hinzufügen. Dies ist besonders nützlich wenn deine Gilde woanders sich anmeldet und für Einladung zum Event ein Spieler angeflüstert wird. Oben bei der *Attendance*-Liste für das Event ist eine Kategorie für kürzliche Nachrichten(dies ist nicht vorhanden wenn du nicht der Ersteller des Events bist oder wen dich niemand angeflüstert hat seitdem du eingeloggt hast). Benutze das Menü neben der ersten Nachricht und wähle *Add Player* aus um den *Add Player*-Dialog zu öffnen.<br>
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/AddWhisper.jpg">
-Here you can see the last whisper from that player and decide what to do with them. If you want to add them to your event, fill in any missing fields and choose whether they should be set to Accepted or to Standby. Optionally, you can provide a response whisper, usually a confirmation that they've been added. This response whisper will be remembered and used for subsequent players as you add them. Click the Save button to add the player to the event and that whisper will be removed and the next whisper will automatically be displayed.<br>
-If the whisper isn't related to the event you can click the Delete button and it will be discarded and the next whisper will be displayed.<br>
-If you don't want to process any more whispers, click the Done button to save and exit from the dialog or the Cancel button to exit without doing anything with the current whisper.
-## Gruppen-Schlachtzug Management
-GroupCalendar can assist you with putting your party or raid together for your event. It can automatically choose players for your party, invite those players to your group, and help fill extra spaces when people have to leave.<br>
+Hier siehst du die letzte Nachricht von diesem Spieler und was du tun kannst:
+- Wenn du ihm dem Event hinzufügen möchstest, fülle die fehlenden Felder aus und wähle ob er für das Event bestätigt oder auf der Warteliste landet. Zusätzlich kannst du eine Antwort verschicken, z.B. ob seine Teilnahme für das Event bestätigt wird. Die Antwort merkt sich das Addon und steht zur Verfügung beim Hinzufügen von weiteren Spielern. Drücke den *Save*-Knopf um den Spieler dem Event hinzufügen. Die Nachricht wird gelöscht und automatisch wird die nächste angezeigt.<br>
+Wenn die Nachricht nicht für das Event ist, drücke den *Delete*-Knopf zum löschen. Die Nachricht wird gelöscht und automatisch wird die nächste angezeigt.<br>
+Wenn du keine weiteren Nachrichten bearbeiten möchstest, drücken den *Done*-Knopf um es abzuspeichern und den Dialog zu verlassen. Der *Cancel*-Knopf um den Dialog zu schließen ohne etwas mit der aktuellen Nachricht zu machen.
 
-To access the party/raid management features, open your event and go to the Attendance tab. There you will see two tabs on the attendance list, All and Group. Select the Group tab.<br>
+## Gruppen-Schlachtzug Management
+GroupCalendar kann dir helfen deine Gruppe oder Schlachtzug für dein Event zusammenzustellen. Es kann automatisch die Spieler für die Gruppe auswählen, diese in deine Gruppe einladen und Plätze auffüllen wenn Spieler die Gruppe verlassen.<br>
+
+Um die Gruppen-Schlachtzug Verwaltungs-Funktionen zu benutzen, öffne dein Event und gehe auf den *Attendance*-Reiter. Hier hast du zwei Reiter *All* und *Group*. Wähle den *Group*-Reiter.<br>
 <img src="https://github.com/vanillaraschid/GroupCalendar/blob/master/Documentation/Images/Group.jpg">
-This view shows all of the attendees who are either accepted or on standby for the event as well as any players currently grouped with you, including your own character. All players will show a status in parenthesis next to their name. Possible values are:
-- **Joined** The player is in your party or raid. Note that your own character will always show this as its status
-- **Ready** You have accepted the player for this event but have not yet invited them to your party or raid
-- **Standby** You have accepted the player as a standby for this event but have not yet invited them to your party or raid
-- **Invited** You have invited the player to your party or raid but they have not yet joined the group
-- **In another group** You have invited the player to your party or raid but they are already in another group
-- **Declined invitation** You have invited the player to your party or raid but they declined the invitation
-- **Offline** The player is offline
-- **Left group** The player had joined your party or raid, but has since left the group
+Dies zeigt alle Teilnehmer an, welche akzeptiert oder auf der Warteliste für das Event sind sowie ob die Spieler gerade in einer Gruppe mit dir sind, einschließlich dir selbst. Alle Spieler haben ihren Status in Klammern hinter ihrem Namen. Mögliche Status sind:
+- **Joined** Der Spieler ist in deiner Gruppe oder Schlachtzug (Dein eigener Charakter hat immer diesen Status)
+- **Ready** Du hast den Spieler für das Event bestätigt, aber noch nicht in die Gruppe/Schlachtzug eingeladen
+- **Standby** Du hast den Spieler für das Event auf die Warteliste gesetzt, aber noch nicht in die Gruppe/Schlachtzug eingeladen
+- **Invited** Du hast den Spieler in die Gruppe/Schlachtzug eingeladen, aber er hat die Einladung noch nicht akzeptiert
+- **In another group** Du hast den Spieler in die Gruppe/Schlachtzug eingeladen, aber er ist bereits in einer anderen Gruppe
+- **Declined invitation** Du hast den Spieler in die Gruppe/Schlachtzug eingeladen, aber er hat Die Einladung abgelehnt
+- **Offline** Der Spieler ist offline
+- **Left group** Der Spieler ist deiner Gruppe/Schlachtzug beigetreten, aber hat die Gruppe wieder verlassen
 <br>
 To start forming your group you must first select the players you want to have join. You can manually select players by using the checkbox next to their name. Note that if they're already in your party or raid there won't be a checkbox and you can't select them.<br>
 To automatically select players click the Select Players button. This will give you a class limits dialog very similar to the one used for automatic confirmations. Read the section above about how automatic confirmations work for an explanation of how the limits in this dialog work as well.<br>
