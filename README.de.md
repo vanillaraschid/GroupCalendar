@@ -13,7 +13,7 @@ Edit: Europäisches Zeitformat als Standard eingestellt
 ### Anmerkungen:
 Die Bilder sind auf englisch, jedoch sollten sie durch die Erklärungen auf deutsch und den gleichen Aufbau im deutschen Client verständlich sein.<br>
 Hier im Deutschen werde ich mich an den Aufbau der "Benutzeranleitung" halten, jedoch auch eigene Erfahrungen und Tipps einfließen lassen. Bis jetzt ist nicht vorgesehen ihn um eigene Bilder zu erweitern, aber mal schauen.<br>
-Zu 99% sind auch die Begriffe im Addon ins Deutsche übersetzt.<br> 
+Zu 99% sind auch die Begriffe im Addon ins Deutsche übersetzt.<br>
 
 ### Was kann dieses Addon überhaupt?
 Es stellt einen Kalender für Events im Spiel dar:Schlachtzüge, Instanzen oder Gildentreffen
