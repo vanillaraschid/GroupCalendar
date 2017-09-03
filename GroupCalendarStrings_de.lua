@@ -1,4 +1,4 @@
-﻿if GetLocale() == "deDE" then
+if GetLocale() == "deDE" then
     GroupCalendar_cTitle = "Group Calendar v%s";
 
     GroupCalendar_cSun = "So";
@@ -38,14 +38,14 @@
 	GroupCalendar_cUseServerDateTimeDescription = "Aktivieren um Events im Server Zeitformat anzuzeigen. Deaktivieren um Events im lokalen Zeitformat anzuzeigen";
 	
     GroupCalendar_cChannelConfigTitle = "Daten Channel Setup";
-    GroupCalendar_cChannelConfigDescription = "\195\156ber den Daten Channel tauscht GroupCalendar die Event Informationen zwischen den einzelnen Spielern aus. Jeder der diesen Channel betreten kann, ist in der Lage deine Eintragungen zu sehen. Man kann dem Channel ein Passwort geben um seinen Kalender privat zu halten.";
+    GroupCalendar_cChannelConfigDescription = "\195\156ber den Daten Channel tauscht GroupCalendar die Eventinformationen zwischen den einzelnen Spielern aus. Jeder der diesen Channel betreten kann, ist in der Lage deine Eintragungen zu sehen. Man kann dem Channel ein Passwort geben um seinen Kalender privat zu halten.";
     GroupCalendar_cAutoChannelConfig = "Automatische Channel Konfiguration";
     GroupCalendar_cManualChannelConfig = "Manuelle Channel Konfiguration";
     GroupCalendar_cStoreAutoConfig = "Autom. Konfig. Daten in Spieler Notizen sichern";
-    GroupCalendar_cAutoConfigPlayer = "Spieler Name:";
+    GroupCalendar_cAutoConfigPlayer = "Spielername:";
     GroupCalendar_cApplyChannelChanges = "\195\156bernehmen";
     GroupCalendar_cAutoConfigTipTitle = "Automatische Channel Konfiguration";
-    GroupCalendar_cAutoConfigTipDescription = "Event Daten werden automatisch \195\188ber die Gilden Notizen eines ausgew\195\164hlten Spielers ausgetauscht. Du musst dich in einer Gilde befinden und die Funktion muss vorher von einem Offizier aktiviert worden sein.";
+    GroupCalendar_cAutoConfigTipDescription = "Eventdaten werden automatisch \195\188ber die Gilden Notizen eines ausgew\195\164hlten Spielers ausgetauscht. Du musst dich in einer Gilde befinden und die Funktion muss vorher von einem Offizier aktiviert worden sein.";
     GroupCalendar_cManualConfigTipDescription = "Manuelle Eingabe des Daten Channels und dessen Passwort.";
     GroupCalendar_cStoreAutoConfigTipDescription = "Erlaubt es einem Offizier die Channel Konfiguration in den Notizen des angegebenen Gildenmitglieds zu speichern.";
     GroupCalendar_cAutoConfigPlayerTipDescription = "Der Name des Gildenmitglieds das die Konfigurationsdaten speichert.";
@@ -56,11 +56,11 @@
     GroupCalendar_cChannelStatus =
     {
 		Starting = {mText = "Status: Initialisiere...", mColor = {r = 1, g = 1, b = 0.3}},
-		Synching = {mText = "Status: Synchronizing with network", mColor = {r = 0.3, g = 1, b = 0.3}},
+		Synching = {mText = "Status: Mit dem Netzwerk synchronisieren", mColor = {r = 0.3, g = 1, b = 0.3}},
         Connected = {mText = "Status: Mit Daten Channel verbunden", mColor = {r = 0.3, g = 1, b = 0.3}},
         Disconnected = {mText = "Status: Nicht mit Daten Channel verbunden.", mColor = {r = 1, g = 0.2, b = 0.4}},
         Initializing = {mText = "Status: Verbinde mit Daten Channel...", mColor = {r = 1, g = 1, b = 0.3}},
-		Error = {mText = "Error: %s", mColor = {r = 1, g = 0.2, b = 0.4}},
+		Error = {mText = "Fehler: %s", mColor = {r = 1, g = 0.2, b = 0.4}},
     };
 
     GroupCalendar_cConnected = "Verbunden";
@@ -92,7 +92,7 @@
     {
         "Jeder mit Zugriff auf den Daten Channel",
         "Alle Gildenmitglieder",
-        "Nur Spieler aus der Berechtigungs Liste"
+        "Nur Spieler aus der Berechtigungsliste"
     };
 
     GroupCalendar_cTrustAnyone = "Berechtigt jeden mit Zugriff auf den Daten Channel";
@@ -123,7 +123,7 @@
         "Status: Nichts gesendet",
         "Status: Warte auf Best\195\164tigung",
         "Status: Best\195\164tigung - Akzeptiert",
-        "Status: Best\195\164tigung - StandBy",
+        "Status: Best\195\164tigung - Warteliste",
         "Status: Best\195\164tigung - Abgelehnt",
 		"Status: Banned from event",
     };
@@ -137,8 +137,8 @@
     -- Event names
 
 	GroupCalendar_cGeneralEventGroup = "Allgemein";
-	GroupCalendar_cRaidEventGroup = "Raids";
-	GroupCalendar_cDungeonEventGroup = "Dungeons";
+	GroupCalendar_cRaidEventGroup = "Schlachtz\195\188ge";
+	GroupCalendar_cDungeonEventGroup = "Instanzen";
 	GroupCalendar_cBattlegroundEventGroup = "Schlachtfelder";
 
     GroupCalendar_cMeetingEventName = "Treffen";
@@ -269,7 +269,7 @@
     GroupCalendar_cDurationLabel = "Dauer:";
     GroupCalendar_cEventLabel = "Event:";
     GroupCalendar_cTitleLabel = "Titel:";
-    GroupCalendar_cLevelsLabel = "Level:";
+    GroupCalendar_cLevelsLabel = "Stufe:";
     GroupCalendar_cLevelRangeSeparator = "bis";
     GroupCalendar_cDescriptionLabel = "Beschreibung:";
     GroupCalendar_cCommentLabel = "Kommentar:";
@@ -340,118 +340,118 @@
 	GroupCalendar_cTransmuteArcanite = "Transmutieren: Arkanit";
 	GroupCalendar_cMooncloth = "Mondstoff";
 
-	GroupCalendar_cCharactersLabel = "Character:";
+	GroupCalendar_cCharactersLabel = "Charakter:";
 
-	GroupCalendar_cConfirmed = "Accepted";
-	GroupCalendar_cStandby = "Standby";
-	GroupCalendar_cDeclined = "Declined";
-	GroupCalendar_cRemove = "Remove";
-	GroupCalendar_cEditPlayer = "Edit Player...";
-	GroupCalendar_cInviteNow = "Inivte to group";
+	GroupCalendar_cConfirmed = "Akzeptiert";
+	GroupCalendar_cStandby = "Warteliste";
+	GroupCalendar_cDeclined = "Abgelehnt";
+	GroupCalendar_cRemove = "Entfernt";
+	GroupCalendar_cEditPlayer = "Spieler bearbeiten...";
+	GroupCalendar_cInviteNow = "Einladen zur Gruppe";
 	GroupCalendar_cStatus = "Status";
-	GroupCalendar_cAddPlayerEllipses = "Add player...";
+	GroupCalendar_cAddPlayerEllipses = "Spieler hinzuf\195\188gen...";
 
-	GroupCalendar_cAddPlayer = "Add player";
-	GroupCalendar_cPlayerLevel = "Level:";
-	GroupCalendar_cPlayerClassLabel = "Class:";
-	GroupCalendar_cPlayerRaceLabel = "Race:";
+	GroupCalendar_cAddPlayer = "Spieler hinzuf\195\188gen";
+	GroupCalendar_cPlayerLevel = "Stufe:";
+	GroupCalendar_cPlayerClassLabel = "Klasse:";
+	GroupCalendar_cPlayerRaceLabel = "Rasse:";
 	GroupCalendar_cPlayerStatusLabel = "Status:";
-	GroupCalendar_cRankLabel = "Guild rank:";
-	GroupCalendar_cGuildLabel = "Guild:";
+	GroupCalendar_cRankLabel = "Gildenrang:";
+	GroupCalendar_cGuildLabel = "Gilde:";
 	GroupCalendar_cSave = "Save";
-	GroupCalendar_cLastWhisper = "Last whisper:";
-	GroupCalendar_cReplyWhisper = "Whisper reply:";
+	GroupCalendar_cLastWhisper = "Letzte Nachricht:";
+	GroupCalendar_cReplyWhisper = "Nachrichterwiderung:";
 
-	GroupCalendar_cUnknown = "Unknown";
-	GroupCalendar_cAutoConfirmationTitle = "Automatic Confirmations";
-	GroupCalendar_cEnableAutoConfirm = "Enable automatic confirmations";
+	GroupCalendar_cUnknown = "Unbekannt";
+	GroupCalendar_cAutoConfirmationTitle = "Automatische Best\195\164tigung";
+	GroupCalendar_cEnableAutoConfirm = "Automatische Best\195\164tigung";
 	GroupCalendar_cMinLabel = "min";
 	GroupCalendar_cMaxLabel = "max";
 
-	GroupCalendar_cAddPlayerTitle = "Add...";
-	GroupCalendar_cAutoConfirmButtonTitle = "Settings...";
+	GroupCalendar_cAddPlayerTitle = "Hinzuf\195\188gen...";
+	GroupCalendar_cAutoConfirmButtonTitle = "Einstellungen...";
 
-	GroupCalendar_cClassLimitDescription = "Use the fields below to set minimum and maximum numbers for each class.  Classes which haven't met the minimum yet will be filled first, the extra spots will be filled in order of response until the maximums are reached.";
+	GroupCalendar_cClassLimitDescription = "Nutze die Felder unten um das Minimum und Maximum f\195\188r jede Klasse einzustellen. Zuerst werden die Klassen eingeladen, wo noch nicht die Minimalanzahl f\195\188r die Klasse erreicht ist. Die Extrapl\195\164tze werden dann in der Reihenfolge der Anmeldung bis zum Maximum aufgef\195\188llt.";
 
-	GroupCalendar_cViewByDate = "View by Date";
-	GroupCalendar_cViewByRank = "View by Rank";
-	GroupCalendar_cViewByName = "View by Name";
-	GroupCalendar_cViewByStatus = "View by Status";
-	GroupCalendar_cViewByClassRank = "View by Class and Rank";
+	GroupCalendar_cViewByDate = "Nach Datum sortieren";
+	GroupCalendar_cViewByRank = "Nach Rang sortieren";
+	GroupCalendar_cViewByName = "Nach Name sortieren";
+	GroupCalendar_cViewByStatus = "Nach Status sortieren";
+	GroupCalendar_cViewByClassRank = "Nach Klasse und Rang sortieren";
 
-	GroupCalendar_cMaxPartySizeLabel = "Maximum party size:";
-	GroupCalendar_cMinPartySizeLabel = "Minimum party size:";
-	GroupCalendar_cNoMinimum = "No minimum";
-	GroupCalendar_cNoMaximum = "No maximum";
-	GroupCalendar_cPartySizeFormat = "%d players";
+	GroupCalendar_cMaxPartySizeLabel = "Maximale Gruppengr\195\182\195\159e:";
+	GroupCalendar_cMinPartySizeLabel = "Minimale Gruppengr\195\182\195\159e:";
+	GroupCalendar_cNoMinimum = "Kein Minimum";
+	GroupCalendar_cNoMaximum = "Kein Maximum";
+	GroupCalendar_cPartySizeFormat = "%d Spieler";
 
-	GroupCalendar_cInviteButtonTitle = "Invite Selected";
-	GroupCalendar_cAutoSelectButtonTitle = "Select Players...";
-	GroupCalendar_cAutoSelectWindowTitle = "Select Players";
+	GroupCalendar_cInviteButtonTitle = "Ausgew\195\164hlte einladen";
+	GroupCalendar_cAutoSelectButtonTitle = "Spieler ausw\195\164hlen...";
+	GroupCalendar_cAutoSelectWindowTitle = "Spieler ausw\195\164hlen";
 
-	GroupCalendar_cNoSelection = "No players selected";
-	GroupCalendar_cSingleSelection = "1 player selected";
-	GroupCalendar_cMultiSelection = "%d players selected";
+	GroupCalendar_cNoSelection = "Keine Spieler ausgew\195\164hlt";
+	GroupCalendar_cSingleSelection = "1 Spieler ausgew\195\164hlt";
+	GroupCalendar_cMultiSelection = "%d Spieler ausgew\195\164hlt";
 
-	GroupCalendar_cInviteNeedSelectionStatus = "Select players to be invited";
-	GroupCalendar_cInviteReadyStatus = "Ready to invite";
-	GroupCalendar_cInviteInitialInvitesStatus = "Sending initial invitations";
-	GroupCalendar_cInviteAwaitingAcceptanceStatus = "Waiting for initial acceptance";
-	GroupCalendar_cInviteConvertingToRaidStatus = "Converting to raid";
-	GroupCalendar_cInviteInvitingStatus = "Sending invitations";
-	GroupCalendar_cInviteCompleteStatus = "Invitations completed";
-	GroupCalendar_cInviteReadyToRefillStatus = "Ready to fill vacant slots";
-	GroupCalendar_cInviteNoMoreAvailableStatus = "No more players available to fill the group";
-	GroupCalendar_cRaidFull = "Raid full";
+	GroupCalendar_cInviteNeedSelectionStatus = "W\195\164hle Spieler zum Einladen aus";
+	GroupCalendar_cInviteReadyStatus = "Bereit zum Einladen";
+	GroupCalendar_cInviteInitialInvitesStatus = "Sende Einladungen";
+	GroupCalendar_cInviteAwaitingAcceptanceStatus = "Warte auf Einladungsannahme";
+	GroupCalendar_cInviteConvertingToRaidStatus = "Zum Schlachtzug umwandeln";
+	GroupCalendar_cInviteInvitingStatus = "Sende Einladungen";
+	GroupCalendar_cInviteCompleteStatus = "Einladungen komplett";
+	GroupCalendar_cInviteReadyToRefillStatus = "Bereit um freie Pl\195\164tze aufzuf\195\188llen";
+	GroupCalendar_cInviteNoMoreAvailableStatus = "Keine Spieler verf\195\188gbar um die Gruppe aufzu\195\188llen";
+	GroupCalendar_cRaidFull = "Schlachtzug voll";
 
-	GroupCalendar_cInviteWhisperFormat = "[GroupCalendar] You are being invited to the event '%s'.  Please accept the invitation if you wish to join this event.";
-	GroupCalendar_cAlreadyGroupedWhisper = "[GroupCalendar] You are already in a group.  Please /w back when you leave your group.";
-	GroupCalendar_cAlreadyGroupedSysMsg = "(.+) is already in a group";
-	GroupCalendar_cInviteDeclinedSysMsg = "(.+) declines your group invitation.";
-	GroupCalendar_cNoSuchPlayerSysMsg = "No player named '(.+)' is currently playing.";
+	GroupCalendar_cInviteWhisperFormat = "[GroupCalendar] Du bist zum Event '%s' worden.  Bitte akzeptiere die Einladung wenn du am Event teilnehmen willst.";
+	GroupCalendar_cAlreadyGroupedWhisper = "[GroupCalendar] Du bist bereits in einer Gruppe.  Bitte fl\195\188ster mich an wenn du die Gruppe verlassen hast.";
+	GroupCalendar_cAlreadyGroupedSysMsg = "(.+) ist bereits in einer Gruppe";
+	GroupCalendar_cInviteDeclinedSysMsg = "(.+) lehnt die Gruppeneinladung ab.";
+	GroupCalendar_cNoSuchPlayerSysMsg = "Kein Spieler namens '(.+)' ist zur Zeit online.";
 
-	GroupCalendar_cJoinedGroupStatus = "Joined";
-	GropuCalendar_cInvitedGroupStatus = "Invited";
-	GropuCalendar_cReadyGroupStatus = "Ready";
-	GroupCalendar_cGroupedGroupStatus = "In another group";
-	GroupCalendar_cStandbyGroupStatus = "Standby";
-	GroupCalendar_cDeclinedGroupStatus = "Declined invitation";
+	GroupCalendar_cJoinedGroupStatus = "Beigetreten";
+	GropuCalendar_cInvitedGroupStatus = "Eingeladen";
+	GropuCalendar_cReadyGroupStatus = "Bereit";
+	GroupCalendar_cGroupedGroupStatus = "in anderer Gruppe";
+	GroupCalendar_cStandbyGroupStatus = "Warteliste";
+	GroupCalendar_cDeclinedGroupStatus = "Einladung abgelehnt";
 	GroupCalendar_cOfflineGroupStatus = "Offline";
-	GroupCalendar_cLeftGroupStatus = "Left group";
+	GroupCalendar_cLeftGroupStatus = "Gruppe verlassen";
 
-	GroupCalendar_cPriorityLabel = "Priority:";
-	GroupCalendar_cPriorityDate = "Date";
-	GroupCalendar_cPriorityRank = "Rank";
+	GroupCalendar_cPriorityLabel = "Priorit\195\164t:";
+	GroupCalendar_cPriorityDate = "Datum";
+	GroupCalendar_cPriorityRank = "Rang";
 
-	GroupCalendar_cConfrimDeleteRSVP = "Remove %s from this event? They can't join again unless you add them back manually.";
+	GroupCalendar_cConfrimDeleteRSVP = "%s vom Event entfernen? Sie k\195\182nnen dem Event nicht mehr beitreten, au\195\159er du f\195\188gst sie manuell hinzu.";
 
 	GroupCalendar_cConfirmSelfUpdateMsg = "%s";
-	GroupCalendar_cConfirmSelfUpdateParamFormat = "A newer copy of the events for $mUserName is available from $mSender.  Do you want to update your events to the newer version? If you update then any events you've added or changed since logging in will be lost.";
-	GroupCalendar_cConfirmSelfRSVPUpdateParamFormat = "A newer copy of the attendance requests for %mUserName is available from $mSender.  Do you wnat to update your attendance requests to the newer version?  If you update then any unconfirmed attendance changes you've made since logging in will be lost.";
-	GroupCalendar_cUpdate = "Update";
+	GroupCalendar_cConfirmSelfUpdateParamFormat = "Eine neue Kopie der Events f\195\188r $mUserName von $mSender ist verf\195\188gbar.  M\195\182chtest du deine Events auf die neue Version aktualisieren? Wenn du sie aktualisierst sind alle Events und Event\195\164nderungen welche du seit dem Einloggen erstellt oder ver\195\164ndert hast, verloren.";
+	GroupCalendar_cConfirmSelfRSVPUpdateParamFormat = "Eine neue Kopie der Anmeldungen f\195\188r %mUserName von $mSender ist verf\195\188gbar. M\195\182chtest du deine Anmeldungens auf die neue Version aktualisieren?  Wenn du sie aktualisierst sind alle unbest\195\164tigten \195\134nderungen bei den Anmeldungen die du gemacht hast, verloren.";
+	GroupCalendar_cUpdate = "Aktualisierung";
 
-	GroupCalendar_cConfirmClearWhispers = "Clear all recent whispers?";
+	GroupCalendar_cConfirmClearWhispers = "Alle fr\195\188heren Nachrichten l\195\182schen?";
 	GroupCalendar_cClear = "Clear";
 	
-	CalendarDatabases_cTitle = "Group Calendar Versions";
-	CalendarDatabases_cRefresh = "Refresh";
-	CalendarDatabases_cRefreshDescription = "Requests online players to send their version numbers.  It may take several minutes for version numbers to update.  Updates received while this window is closed will still be recorded and can be viewed at a later time.";
+	CalendarDatabases_cTitle = "Group Calendar Versionen";
+	CalendarDatabases_cRefresh = "Aktualisieren";
+	CalendarDatabases_cRefreshDescription = "Fordere die Versionsnummern von den Spielern an, welche grad online sind.  Dies kann ein paar Minuten dauern, bis die Versionsnummern aktualisiert sind.  Aktualisierungen welche nach dem Schlie\195\159en dieses Fenster gesendet werden, werden trotzdem gespeichert und k\195\182nnen zu einem sp\195\164teren Zeitpunkt angesehen werden.";
 
 	GroupCalendar_cVersionFormat = "Group Calendar v%s";
 	GroupCalendar_cShortVersionFormat = "v%s";
 	GroupCalendar_cVersionUpdatedFormat = "as of %s %s (local time)";
 	GroupCalendar_cVersionUpdatedUnknown = "Date version info was last seen is unknown";
 
-	GroupCalendar_cToggleVersionsTitle = "Show Player Versions";
-	GroupCalendar_cToggleVersionsDescription = "Shows what version of Group Calendar other players are running";
+	GroupCalendar_cToggleVersionsTitle = "Zeigt die Spieler Versionen an";
+	GroupCalendar_cToggleVersionsDescription = "Zeigt welche Versionen von Group Calendar die anderen Spieler benutzen";
 
-	GroupCalendar_cChangesDelayedMessage = "Group Calendar: Changes made while synchronizing with the network will not be sent until synchronization is completed.";
+	GroupCalendar_cChangesDelayedMessage = "Group Calendar: \195\134nderungen w\195\164hrend dem Synchronisieren mit dem Netzwerk werden erst nach Abschluss der Synchronisation gesendet.";
 
 	GroupCalendar_cConfirmKillMsg = "Are you sure you want to force the events from %s out of the network?"; 
 	GroupCalendar_cKill = "Kill";
 
-	GroupCalendar_cNotAnOfficerError = "GroupCalendar: Only guild officers are not allowed to do that";
+	GroupCalendar_cNotAnOfficerError = "GroupCalendar: Nur Gildenoffiziere d\195\188rfen das";
 	GroupCalendar_cUserNameExpected = "GroupCalendar: Expected user name";
-	GroupCalendar_cDatabaseNotFoundError = "GroupCalendar: Database for %s not found.";
+	GroupCalendar_cDatabaseNotFoundError = "GroupCalendar: Datenbank f\195\188r %s nicht gefunden.";
 	GroupCalendar_cCantKillGuildieError = "GroupCalendar: Can't purge a user who's in your guild";
 end
